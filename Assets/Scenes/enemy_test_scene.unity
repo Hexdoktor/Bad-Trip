@@ -156,16 +156,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 5
+  stepheight: 0
+  dropheight: 0
+  waitforplayer: 0
+  actdistance: 0
+  allowjump: 0
   rb: {fileID: 57965246}
   size: {x: 0, y: 0}
-  groundCheck: {fileID: 0}
+  pos: {fileID: 0}
   Ground:
     serializedVersion: 2
     m_Bits: 8
-  invisiblock:
+  Player:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!50 &57965246
 Rigidbody2D:
   serializedVersion: 4
@@ -505,7 +510,7 @@ GameObject:
   - component: {fileID: 330562165}
   - component: {fileID: 330562164}
   - component: {fileID: 330562163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -643,7 +648,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330562162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2799997, y: -0.5799999, z: 0}
+  m_LocalPosition: {x: -14.03, y: 0.42000008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1023,14 +1028,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 5
+  stepheight: 0
+  dropheight: 0
+  waitforplayer: 1
+  actdistance: 0
+  allowjump: 0
   rb: {fileID: 728588506}
   size: {x: 0, y: 0}
-  groundCheck: {fileID: 0}
+  pos: {fileID: 728588509}
   Ground:
     serializedVersion: 2
     m_Bits: 8
-  invisiblock:
+  Player:
     serializedVersion: 2
     m_Bits: 64
 --- !u!50 &728588506
@@ -1392,16 +1402,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 5
+  stepheight: 0
+  dropheight: 0
+  waitforplayer: 0
+  actdistance: 0
+  allowjump: 0
   rb: {fileID: 832710531}
   size: {x: 0, y: 0}
-  groundCheck: {fileID: 0}
+  pos: {fileID: 0}
   Ground:
     serializedVersion: 2
     m_Bits: 8
-  invisiblock:
+  Player:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!50 &832710531
 Rigidbody2D:
   serializedVersion: 4
@@ -1499,7 +1514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832710529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 2.25, z: 0}
+  m_LocalPosition: {x: 5.75, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1539,16 +1554,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 15
+  stepheight: 0
+  dropheight: 0
+  waitforplayer: 0
+  actdistance: 0
+  allowjump: 1
   rb: {fileID: 869315189}
   size: {x: 0, y: 0}
-  groundCheck: {fileID: 0}
+  pos: {fileID: 0}
   Ground:
     serializedVersion: 2
     m_Bits: 8
-  invisiblock:
+  Player:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!50 &869315189
 Rigidbody2D:
   serializedVersion: 4
@@ -2325,7 +2345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066821248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 3, z: 0}
+  m_LocalPosition: {x: 8.25, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2345,14 +2365,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 15
+  stepheight: 0.05
+  dropheight: 10
+  waitforplayer: 1
+  actdistance: 0
+  allowjump: 1
   rb: {fileID: 2066821249}
   size: {x: 0, y: 0}
-  groundCheck: {fileID: 0}
+  pos: {fileID: 2066821252}
   Ground:
     serializedVersion: 2
     m_Bits: 8
-  invisiblock:
+  Player:
     serializedVersion: 2
     m_Bits: 64
 --- !u!1 &2146105648
