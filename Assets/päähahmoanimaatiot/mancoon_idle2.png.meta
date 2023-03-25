@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 543e03d76a165e64d9fe38d57423cf0a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mancoon_idle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b122807655c7b4a8e14c6bef8eaa84
+      internalID: 472009324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318e6959f139ee94aa61f282e2739905
+      internalID: 827581524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_2
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9828b089c349c74990c55de0048895e
+      internalID: 1895604495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_3
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0885e91943882ef408f3e79b99d7c6c1
+      internalID: 1113267661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_4
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4948dc4e5e520a849a9bdd926840c342
+      internalID: 129534578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_5
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ff3c3179441064e991fce0d28d5f3f
+      internalID: -97734585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_6
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1619b4c4b05ec849b3d10f7757aa95e
+      internalID: 386602560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_7
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a252bf3ee61dc47b9459727da38335
+      internalID: 710282394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_8
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 1530
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731836a34c1bddb48ae3ea0e83921ce2
+      internalID: 527232727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866aac2dcf8b1b7458fef53ecd486272
+      internalID: 1561962097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_10
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4337e3033c0e749a3c1e01d0128903
+      internalID: 410303947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_11
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b01610eb590f3489d2c9eb84de5945
+      internalID: 1375333626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_12
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab7ce9529dbad243bb249f79f9fcb6f
+      internalID: -1266736030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_13
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d17df24e57ef8342bb2c7f0bd44f508
+      internalID: 191303442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_14
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f293714af6c0f8e4cbd6247bd16cc8c4
+      internalID: 708682045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_15
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce43c8389e58b40b8d3c6173ac84ef
+      internalID: -1006810725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_16
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14896dd71ce19b47806a95aec8c7a8f
+      internalID: -1294086378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_17
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 765
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55da5a956b3fa04e9444c3673118b2a
+      internalID: -357483881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819291e641aae604982f7d3f007b9ee3
+      internalID: -53972559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_19
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8ca3b288dbd084b98b1231d8443be8
+      internalID: 954492067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_20
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263edd4981857ee48a24d7ac0869a889
+      internalID: -880210646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_21
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101e7376bd0e49e47813b795274e3a62
+      internalID: -489867529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_22
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3332e7b91b9d17347a094e25c57a536c
+      internalID: -659186455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_23
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebfcae8ac72f8d4ba664ed4d1be4666
+      internalID: -382923302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_idle2_24
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 0
+        width: 837
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d0bba42c9ddf246bebf158d4413378
+      internalID: -644923499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mancoon_idle2_19: 954492067
+      mancoon_idle2_10: 410303947
+      mancoon_idle2_8: 527232727
+      mancoon_idle2_1: 827581524
+      mancoon_idle2_2: 1895604495
+      mancoon_idle2_20: -880210646
+      mancoon_idle2_11: 1375333626
+      mancoon_idle2_21: -489867529
+      mancoon_idle2_9: 1561962097
+      mancoon_idle2_17: -357483881
+      mancoon_idle2_5: -97734585
+      mancoon_idle2_12: -1266736030
+      mancoon_idle2_24: -644923499
+      mancoon_idle2_14: 708682045
+      mancoon_idle2_3: 1113267661
+      mancoon_idle2_23: -382923302
+      mancoon_idle2_22: -659186455
+      mancoon_idle2_13: 191303442
+      mancoon_idle2_16: -1294086378
+      mancoon_idle2_4: 129534578
+      mancoon_idle2_6: 386602560
+      mancoon_idle2_0: 472009324
+      mancoon_idle2_7: 710282394
+      mancoon_idle2_15: -1006810725
+      mancoon_idle2_18: -53972559
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
