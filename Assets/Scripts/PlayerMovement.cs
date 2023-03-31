@@ -1,114 +1,44 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PlayerMovement:MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
+
+    public CharacterController2D controller;
+    public Animator animator;
+    public float runSpeed = 40f;
     
-    float leftmove = 0.0f;
-    float rightmove = 0.0f;
+    float horizontalMove = 0f;
+    bool jump = false;
+    bool crouch = false;
+        
 
-    public float moveSpeed;
-
-    public float jumpForce;
-
-    public Rigidbody2D rb;
-    public Transform groundCheck;
-    public LayerMask groundLayer;
-    public LayerMask jumpableObject;
-
-    //--- AUDIO
-    public AudioSource jumpsound;
-    public AudioClip jumpClip;
-
-
-    private void Awake()
-    {
-      //  jumpsound  = GetComponent<AudioSource>();
-    }
-    void Start()
-    {
-      //  DontDestroyOnLoad(gameObject);
-    }
-
-
-    bool IsGrounded()
-    {
-        // groundCheck.position antaa groundCheckin sijainnin. 4f on ympyr‰mitta, kuinka laajalta alueelta tarkistetaan
-        // ground-alue ja ollaanko siihen kosketuksissa. groundLayer = lattiaksi asetettu gameObject, jolle on m‰‰ritelty
-        // Layeriksi groundLayer
-
-        // t‰nne jotain toimintoa, kun painetaan Space. Kopioi valmis if tuolta alhaalta.
-
-        return Physics2D.OverlapCircle(groundCheck.position, 4f, groundLayer);
-
-    }
-    bool IsOnJumpableObject()
-    {
-        // groundCheck.position antaa groundCheckin sijainnin. 4f on ympyr‰mitta, kuinka laajalta alueelta tarkistetaan
-        // ground-alue ja ollaanko siihen kosketuksissa. groundLayer = lattiaksi asetettu gameObject, jolle on m‰‰ritelty
-        // Layeriksi groundLayer
-
-        // t‰nne jotain toimintoa, kun painetaan Space. Kopioi valmis if tuolta alhaalta.
-
-        return Physics2D.OverlapCircle(groundCheck.position, 4f, jumpableObject);
-
-    }
-
-    // T‰h‰n funktio, mik‰ liikuttaa pelaajaa. Aseta se Updateen.
-    // Muista laittaa bracketit kiinni
-
-    void MovePlayer()
-    {
-        if (Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow))
-        {
-            // move left:
-
-            leftmove -= 0.01f * Time.deltaTime;
-
-            transform.localScale = new Vector3(-1, 1, 1); // k‰‰nt‰‰ Spriten toiseen suuntaan
- 
-            transform.Translate(leftmove, 0, 0);
-        }
-        // move right:
-        if (Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow))
-        {
-
-            rightmove += 0.01f * Time.deltaTime;
-            transform.localScale = new Vector3(1, 1, 1);
-            transform.Translate(rightmove, 0, 0);
-        }
-    }
-    void JumpPlayer()
-    {
-        if (IsGrounded() || IsOnJumpableObject())
-        {
-            // ei saa hypp‰‰ ilmassa
-
-            if (Input.GetKeyDown("space")) // tai KeyCode.Space
-            {
-              jumpsound.PlayOneShot(jumpClip);
-
-                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
-
-            } 
-
-
-        }  // IsGrounded loppuu
-
-    }
-
+    // Update is called once per frame
     void Update()
     {
-        // Jonkun niminen move-script esim. CharacterMove();
-        // isGrounded(); <-- for testing purposes, delete when jumping works
-        MovePlayer();
-        JumpPlayer();
-        //IsGrounded();
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+            jump = true;
+        }
+         
+        if (Input.GetButtonDown("Crouch"))
+        {
+            crouch = true;
+        } else if (Input.GetButtonUp("Crouch"))
+        {
+            crouch = false;
+        }
     }
+
     void FixedUpdate()
     {
-
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        jump = false;
     }
-
 }
+
