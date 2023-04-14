@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 128675628}
   - component: {fileID: 128675629}
   - component: {fileID: 128675630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ScreenEdgeLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 255091532}
   - component: {fileID: 255091534}
   - component: {fileID: 255091533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ScreenEdgeBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 467519956}
   - component: {fileID: 467519957}
   - component: {fileID: 467519958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ScreenEdgeRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 581965663}
   - component: {fileID: 581965668}
   - component: {fileID: 581965669}
+  - component: {fileID: 581965670}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -836,7 +837,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 3, y: 4.5}
   m_Direction: 0
 --- !u!212 &581965665
 SpriteRenderer:
@@ -879,7 +880,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -1402884432, guid: 4244d28ad30e2e44a9be4892c7796fb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -898,8 +899,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581965662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.84, y: 16.24, z: -2.08}
-  m_LocalScale: {x: 2, y: 2, z: 1.59308}
+  m_LocalPosition: {x: 29, y: 15.5, z: -2.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -939,6 +940,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 581965668}
   maxHealth: 100
+--- !u!114 &581965670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581965662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04221592af295be4385012380564bde4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 581965668}
+  bloodsplat: {fileID: 5219562080686374615, guid: 41660b42587a2764f857a8dcc4b5ba85, type: 3}
+  moveSpeed: 5
+  jumpForce: 0
+  stepheight: 1.5
+  dropheight: 4
+  waitforplayer: 0
+  actdistance: 0
+  attackdistance: 0
+  rb: {fileID: 581965663}
+  size: {x: 0, y: 0}
+  pos: {fileID: 0}
+  Ground:
+    serializedVersion: 2
+    m_Bits: 8
+  Player:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &598066944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1105,7 @@ GameObject:
   - component: {fileID: 1011431848}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1489,9 +1520,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1316937288}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ScreenEdge
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1524,7 +1555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1472091744}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tempGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1747,7 +1778,7 @@ GameObject:
   - component: {fileID: 1890664826}
   - component: {fileID: 1890664828}
   - component: {fileID: 1890664827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ScreenEdgeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1982,8 +2013,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029066173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5281296, y: -1.3721218, z: 25.982872}
-  m_LocalScale: {x: -0.10774414, y: 1, z: 1}
+  m_LocalPosition: {x: 5.5281296, y: -2.6221218, z: 25.982872}
+  m_LocalScale: {x: -0.10774414, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1472091744}
