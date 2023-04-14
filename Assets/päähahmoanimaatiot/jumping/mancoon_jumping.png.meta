@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c08d50b655895b49b7837a6db43095c
+guid: 77f1d6b2c219856429672b405c54e4d2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mancoon_running2_0
+      name: mancoon_jumping_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b447cbeeee5ec4b4ead6adc16aeac18d
-      internalID: -639608575
+      spriteID: e724c295585c7a6469b918e1106d4193
+      internalID: 1977913820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_1
+      name: mancoon_jumping_1
       rect:
         serializedVersion: 2
         x: 837
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe82f0867443d4643a483dc4aa465f26
-      internalID: -1276581663
+      spriteID: 1790156fabc71bb40bab1cee2a4da29d
+      internalID: 2042173389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_2
+      name: mancoon_jumping_2
       rect:
         serializedVersion: 2
         x: 1674
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 292a095cde1f8a3458ebe453f061c05e
-      internalID: -1725367735
+      spriteID: 7102d0b1801071a4897f3592f3ba3176
+      internalID: 1923574636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_3
+      name: mancoon_jumping_3
       rect:
         serializedVersion: 2
         x: 2511
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a18bda1343b0f04e8c41ecccd68b5ff
-      internalID: -1581082632
+      spriteID: 0d06e3ae3daf47f45960d88145f96a4c
+      internalID: 1486498462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_4
+      name: mancoon_jumping_4
       rect:
         serializedVersion: 2
         x: 3348
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7cd5a57c3f96746be545980d7f6d78
-      internalID: 2023008643
+      spriteID: 72524bb827df56644a4ef0adf3112373
+      internalID: -1784192094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_5
+      name: mancoon_jumping_5
       rect:
         serializedVersion: 2
         x: 4185
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b08f69bf466546b43b6cb7533fb1da93
-      internalID: -495661217
+      spriteID: a702efcfd01c914468921019516e7050
+      internalID: -1744404444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_6
+      name: mancoon_jumping_6
       rect:
         serializedVersion: 2
         x: 5022
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d2bf62022314c4e9a0283a6b4ea354
-      internalID: -2038551487
+      spriteID: 50d1c8e2b849d8f48ba56861f0ddf244
+      internalID: -1502501827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_7
+      name: mancoon_jumping_7
       rect:
         serializedVersion: 2
         x: 5859
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 332cce655d9861947a26b752256b784d
-      internalID: -1338728053
+      spriteID: 5905e942b4b81d74099cc417626be55b
+      internalID: -588038340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_8
+      name: mancoon_jumping_8
       rect:
         serializedVersion: 2
         x: 6696
-        y: 2295
+        y: 3095.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba5fa436022dfb4080775c4ded4fa61
-      internalID: -1759724257
+      spriteID: 753750f259a024c429a97ed5f2b14c54
+      internalID: -653228725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_9
+      name: mancoon_jumping_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd4e72d2daeb8cf4facf9b792a2d9148
-      internalID: -1020154728
+      spriteID: cd6e8226739c27647a4bcefbc5a321d2
+      internalID: -1080182972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_10
+      name: mancoon_jumping_10
       rect:
         serializedVersion: 2
         x: 837
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f991f187c297c7944952ad6095f21c6d
-      internalID: -1129688414
+      spriteID: 2d1cb1c338a32444ba811a486e88de9a
+      internalID: -17472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_11
+      name: mancoon_jumping_11
       rect:
         serializedVersion: 2
         x: 1674
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b21449d0b1e5b454ca857fc404fbac59
-      internalID: 1547399592
+      spriteID: b24f2fc993b380247bb84f3f5916976e
+      internalID: 298205184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_12
+      name: mancoon_jumping_12
       rect:
         serializedVersion: 2
         x: 2511
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54478e2a47b701548a5e6ad12ac8bec3
-      internalID: 653807655
+      spriteID: 5be0eb37c765fdc458b052400102e457
+      internalID: 145141100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_13
+      name: mancoon_jumping_13
       rect:
         serializedVersion: 2
         x: 3348
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6993dfea9e4a9b44a29ec3738345798
-      internalID: -1023678463
+      spriteID: 64177ed4df5b8924c9a4974937cd8c3c
+      internalID: 76456636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_14
+      name: mancoon_jumping_14
       rect:
         serializedVersion: 2
         x: 4185
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 296a15425ada29b4e898d5eb8df4a12a
-      internalID: 618339953
+      spriteID: fd1a68b66ba62264bafeda2a13a1b465
+      internalID: -944111437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_15
+      name: mancoon_jumping_15
       rect:
         serializedVersion: 2
         x: 5022
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8254b26014961e44b5311a4fe355324
-      internalID: 299589673
+      spriteID: 8a21455a221f0014582414c360809cc8
+      internalID: 1599192189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_16
+      name: mancoon_jumping_16
       rect:
         serializedVersion: 2
         x: 5859
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05029c83703c2dd4f89b1aa98ac684c0
-      internalID: -2107517316
+      spriteID: 77d2f4b61bcb92846b13e7affb4cc20e
+      internalID: 348263627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_17
+      name: mancoon_jumping_17
       rect:
         serializedVersion: 2
         x: 6696
-        y: 1530
+        y: 2322.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af247189f234b1f4f96a11b60f2d0184
-      internalID: 1405314398
+      spriteID: 9ec6f48985ce55d479bbccb6db1f1608
+      internalID: -133381861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_18
+      name: mancoon_jumping_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19de4745a41a73a46b6050a4f1a9122f
-      internalID: 322923878
+      spriteID: 6471bf4b45d81344bba65aeb7982d4f0
+      internalID: -52308862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_19
+      name: mancoon_jumping_19
       rect:
         serializedVersion: 2
         x: 837
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +518,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feafc10a7df18dd4b94b4b5182cfab7c
-      internalID: 929787611
+      spriteID: 069a77ac828b15848ba3a7543af561e3
+      internalID: 94743539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_20
+      name: mancoon_jumping_20
       rect:
         serializedVersion: 2
         x: 1674
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73c3acbb23d60034ea4b257652cf0ba7
-      internalID: 1601496106
+      spriteID: 746959ebd66ce824a8ff2596fd8d5358
+      internalID: 314267195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_21
+      name: mancoon_jumping_21
       rect:
         serializedVersion: 2
         x: 2511
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8c4931e7d8a9b4ea6c5e034da2fedd
-      internalID: -344879660
+      spriteID: 780d8ac509adaf340b1bbca05db845f7
+      internalID: -1726601434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_22
+      name: mancoon_jumping_22
       rect:
         serializedVersion: 2
         x: 3348
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57b9d02f640a7644398d7640399ddd46
-      internalID: -1460133269
+      spriteID: 8bf9e38bd1f005148ae3478f0dff2a98
+      internalID: -1514612283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_23
+      name: mancoon_jumping_23
       rect:
         serializedVersion: 2
         x: 4185
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1214aa912a590341880965f240df2bf
-      internalID: -1448145415
+      spriteID: fd93e54fc92cbe74490251972ba70064
+      internalID: 476162841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_24
+      name: mancoon_jumping_24
       rect:
         serializedVersion: 2
         x: 5022
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7603ec2d9bb3f6e4fae14a16e56ff3d3
-      internalID: 797314031
+      spriteID: e25d1ebc40f4e5d489dd1a6754e79a80
+      internalID: 500441423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_25
+      name: mancoon_jumping_25
       rect:
         serializedVersion: 2
         x: 5859
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecaa38256c9cca2459dced8aafe80dbf
-      internalID: -1032690853
+      spriteID: 9a48e6032bc57014488789cfafe6e6e8
+      internalID: -2041740791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_26
+      name: mancoon_jumping_26
       rect:
         serializedVersion: 2
         x: 6696
-        y: 765
+        y: 1549.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74731ee53e994c4499961c2b3322da37
-      internalID: -56879938
+      spriteID: 4ee22876490c2d740b2b65a9f9720187
+      internalID: -1280355729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_27
+      name: mancoon_jumping_27
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,20 +686,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ede12ad1f938ae44ae127dc0daf5b0a
-      internalID: -664563208
+      spriteID: 9779633e1b41ea548915ec134f607cca
+      internalID: 312594200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_28
+      name: mancoon_jumping_28
       rect:
         serializedVersion: 2
         x: 837
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b351b92e588104db69ba6066fab5df
-      internalID: -1056672718
+      spriteID: fd1eb8d20d0c1424794ae3fe8f3433b6
+      internalID: 425397128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_29
+      name: mancoon_jumping_29
       rect:
         serializedVersion: 2
         x: 1674
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,20 +728,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17e2ad1137f297f46ab198f12b9203e3
-      internalID: 1231397026
+      spriteID: 289d2513e68f4e346a3a25e498e8ddcf
+      internalID: -1054177965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_30
+      name: mancoon_jumping_30
       rect:
         serializedVersion: 2
         x: 2511
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,20 +749,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 704e3da161aeab7498ff7bd65d6f0b2e
-      internalID: -1780470731
+      spriteID: 38cb35d2f99e0034bab5c77660457069
+      internalID: -514300719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_31
+      name: mancoon_jumping_31
       rect:
         serializedVersion: 2
         x: 3348
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,20 +770,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6c3434c9ec5f094e9a391d5bf7bff96
-      internalID: 70591218
+      spriteID: 00a321c4594035e46b5e6317e533ad4f
+      internalID: -1157254747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_32
+      name: mancoon_jumping_32
       rect:
         serializedVersion: 2
         x: 4185
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,20 +791,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28b6f1558c019cb40a2bc5e918e85f40
-      internalID: -2070214269
+      spriteID: fd033bfa9059f304c990da6f4d7f0f90
+      internalID: -531623710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mancoon_running2_33
+      name: mancoon_jumping_33
       rect:
         serializedVersion: 2
         x: 5022
-        y: 0
+        y: 776.2
         width: 837
-        height: 765
+        height: 773.8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,8 +812,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bd4d5b49e722a6458461fef5da734ca
-      internalID: 1439008856
+      spriteID: 7e6e1be1ddf688e46be301e8fcac574a
+      internalID: 521524471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_34
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 776.2
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc00f557fc0542f48854666125ebf5fc
+      internalID: 1091745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_35
+      rect:
+        serializedVersion: 2
+        x: 6696
+        y: 776.2
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db888c04dbbfb264f9cc4684bcb75513
+      internalID: 1760448772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.2000122
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d75312f8aea143bb978bb062902ee
+      internalID: 928110094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_37
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3.2000122
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6008e9b567b76b449bb641f4d65b1966
+      internalID: 1439027200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_38
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 3.2000122
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e9950a7229be9409a008b7d11ee839
+      internalID: 1869252941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_39
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 3.2000122
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0891278afa2e14dbaf11c299ddbc94
+      internalID: -25189539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_jumping_40
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 3.2000122
+        width: 837
+        height: 773.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f05c4237ea563408e459b466915269
+      internalID: -1933753672
       vertices: []
       indices: 
       edges: []
@@ -829,40 +976,47 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mancoon_running2_1: -1276581663
-      mancoon_running2_4: 2023008643
-      mancoon_running2_8: -1759724257
-      mancoon_running2_19: 929787611
-      mancoon_running2_22: -1460133269
-      mancoon_running2_2: -1725367735
-      mancoon_running2_3: -1581082632
-      mancoon_running2_28: -1056672718
-      mancoon_running2_16: -2107517316
-      mancoon_running2_32: -2070214269
-      mancoon_running2_24: 797314031
-      mancoon_running2_33: 1439008856
-      mancoon_running2_12: 653807655
-      mancoon_running2_21: -344879660
-      mancoon_running2_18: 322923878
-      mancoon_running2_31: 70591218
-      mancoon_running2_20: 1601496106
-      mancoon_running2_10: -1129688414
-      mancoon_running2_15: 299589673
-      mancoon_running2_6: -2038551487
-      mancoon_running2_25: -1032690853
-      mancoon_running2_9: -1020154728
-      mancoon_running2_27: -664563208
-      mancoon_running2_30: -1780470731
-      mancoon_running2_29: 1231397026
-      mancoon_running2_14: 618339953
-      mancoon_running2_23: -1448145415
-      mancoon_running2_7: -1338728053
-      mancoon_running2_26: -56879938
-      mancoon_running2_0: -639608575
-      mancoon_running2_5: -495661217
-      mancoon_running2_13: -1023678463
-      mancoon_running2_11: 1547399592
-      mancoon_running2_17: 1405314398
+      mancoon_jumping_13: 76456636
+      mancoon_jumping_11: 298205184
+      mancoon_jumping_16: 348263627
+      mancoon_jumping_9: -1080182972
+      mancoon_jumping_8: -653228725
+      mancoon_jumping_7: -588038340
+      mancoon_jumping_3: 1486498462
+      mancoon_jumping_30: -514300719
+      mancoon_jumping_31: -1157254747
+      mancoon_jumping_33: 521524471
+      mancoon_jumping_32: -531623710
+      mancoon_jumping_26: -1280355729
+      mancoon_jumping_34: 1091745
+      mancoon_jumping_10: -17472
+      mancoon_jumping_40: -1933753672
+      mancoon_jumping_36: 928110094
+      mancoon_jumping_1: 2042173389
+      mancoon_jumping_5: -1744404444
+      mancoon_jumping_24: 500441423
+      mancoon_jumping_6: -1502501827
+      mancoon_jumping_14: -944111437
+      mancoon_jumping_2: 1923574636
+      mancoon_jumping_25: -2041740791
+      mancoon_jumping_27: 312594200
+      mancoon_jumping_4: -1784192094
+      mancoon_jumping_22: -1514612283
+      mancoon_jumping_12: 145141100
+      mancoon_jumping_21: -1726601434
+      mancoon_jumping_29: -1054177965
+      mancoon_jumping_15: 1599192189
+      mancoon_jumping_20: 314267195
+      mancoon_jumping_23: 476162841
+      mancoon_jumping_37: 1439027200
+      mancoon_jumping_38: 1869252941
+      mancoon_jumping_17: -133381861
+      mancoon_jumping_0: 1977913820
+      mancoon_jumping_19: 94743539
+      mancoon_jumping_35: 1760448772
+      mancoon_jumping_28: 425397128
+      mancoon_jumping_39: -25189539
+      mancoon_jumping_18: -52308862
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
