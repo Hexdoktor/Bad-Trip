@@ -13,6 +13,8 @@ public class EnemyMover : MonoBehaviour
     public bool waitforplayer; // doesn't move until player is close enough (or moves, but doesn't step up / drop down), is set to false when player got close enough
     public float actdistance; // activation distance
     public float attackdistance; // attack distance
+    public int maxHealth = 100;
+    int currentHealth;
 
     bool landed; // maybe useless / didn't want to work right
 
@@ -153,9 +155,39 @@ public class EnemyMover : MonoBehaviour
         return (Physics2D.OverlapCircle(rb.position, dist, Player));
     }
 
+    //take damage when hit by player
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+        
+        if(currentHealth <= 0)
+        {
+            Die();
+        }
+        if(currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    //disable enemy when dead
+    void Die()
+    {
+        Debug.Log("Enemy Died!");
+        animator.SetBool("IsDead", true);
+
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
+    }
+
+
+
 
     void Start()
     {
+        currentHealth = maxHealth;
         hitbox = GetComponent<Collider2D>();
         size = hitbox.bounds.size;
         // default values if nothing set in Unity
@@ -167,7 +199,7 @@ public class EnemyMover : MonoBehaviour
             dropheight = 4.0f;
         if(actdistance < 15f)
             actdistance = 15f;
-        attackdistance = 7.5f;
+        attackdistance = 6.5f;
         ChangeMoveDir();
         landed = true;
     }
