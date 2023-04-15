@@ -63,3 +63,9 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: ItemCollect
+    clip: {fileID: 8300000, guid: 177952fc94d26c240baa5eecb7839da3, type: 3}
+    volume: 0.355
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
