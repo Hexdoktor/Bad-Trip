@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7817089228346945679}
   m_Layer: 7
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,6 +168,8 @@ MonoBehaviour:
   actdistance: 0
   attackdistance: 0
   maxHealth: 100
+  damage: 15
+  playerHealth: {fileID: 0}
   rb: {fileID: 7817089228346945719}
   size: {x: 0, y: 0}
   pos: {fileID: 0}
@@ -189,5 +191,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd15a544fb960a4ca93364ba425c488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 0
   playerHealth: {fileID: 0}

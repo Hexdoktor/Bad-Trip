@@ -16,10 +16,14 @@ public class EnemyMover : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
+    public int damage;
+    public PlayerHealth playerHealth;
+
     bool landed; // maybe useless / didn't want to work right
 
     float attack_time; // doing an attack
     bool attack_hit; // marker for the current attack hit player, cleared when attack has finished
+    float pain_time; // being hurt
     float move_time; // used to be time when to turn around, but is now used for jumping time
     float move_dir; // -1 = left, 0 = not moving or randomize, 1 = right
 
@@ -86,7 +90,7 @@ public class EnemyMover : MonoBehaviour
 
     bool IsGrounded()
     {
-        Vector2 vec = new Vector2(0, 1.5f);
+        Vector2 vec = new Vector2(0, 2.5f);
         if (Physics2D.Linecast(rb.position, rb.position - vec, Ground))
             return true;
         //else if (Physics2D.Linecast(rb.position, rb.position - vec, enemyLayer))
@@ -130,6 +134,8 @@ public class EnemyMover : MonoBehaviour
             rb.AddForce(Vector2.right * 5 * move_dir, ForceMode2D.Impulse);
             // for now here's just a debug log about the hit connecting
             Debug.Log("Enemy hit Player, ouch!");
+
+            playerHealth.TakeDamage(damage);
             
             GameObject blood = Instantiate(bloodsplat, hit.collider.attachedRigidbody.position, Quaternion.identity);
             blood.GetComponent<ParticleSystem>().Play();
@@ -158,9 +164,25 @@ public class EnemyMover : MonoBehaviour
     //take damage when hit by player
     public void TakeDamage(int damage)
     {
+        ParticleSystem ps;
         currentHealth -= damage;
 
         animator.SetTrigger("Hurt");
+        animator.ResetTrigger("Attack");
+
+        pain_time = Time.timeSinceLevelLoad + 1.0f;
+
+        GameObject blood = Instantiate(bloodsplat, rb.position, Quaternion.identity);
+        ps = blood.GetComponent<ParticleSystem>();
+        // change to green blood
+        var main = ps.main;
+        main.startColor = new Color(0.5f, 1f, 0.25f, 1f);
+        var color = ps.colorOverLifetime;
+        color.enabled = true;
+        Gradient grad = new Gradient();
+        grad.SetKeys( new GradientColorKey[] { new GradientColorKey(Color.green, 0.0f), new GradientColorKey(Color.green, 1.0f) }, new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0.0f), new GradientAlphaKey(0.0f, 1.0f) } );
+        color.color = grad;
+        blood.GetComponent<ParticleSystem>().Play();
         
         if(currentHealth <= 0)
         {
@@ -210,14 +232,20 @@ public class EnemyMover : MonoBehaviour
         // the enemy is active
         if(waitforplayer == false) {
             CheckMoveDir();
-            if(Time.timeSinceLevelLoad < attack_time)
-                FacePlayer();
-            if(Time.timeSinceLevelLoad > attack_time - 1.25f && Time.timeSinceLevelLoad < attack_time - 0.5f)
-                EnemyMeleeHit();
+            // can't attack if feeling pain
+            if(Time.timeSinceLevelLoad > pain_time) {
+                if(Time.timeSinceLevelLoad < attack_time)
+                    FacePlayer();
+                if(Time.timeSinceLevelLoad > attack_time - 1.0f && Time.timeSinceLevelLoad < attack_time - 0.25f)
+                    EnemyMeleeHit();
+            }
+            else
+                animator.ResetTrigger("Hurt");
+            // move or attack
             if(Time.timeSinceLevelLoad > attack_time) {
                 // check for attack
                 attack_hit = false;
-                if(FindPlayer(attackdistance) && Random.value < 0.01f && Time.timeSinceLevelLoad > attack_time + 0.5f + Random.value * 0.5f)
+                if(FindPlayer(attackdistance) && Random.value < 0.05f && Time.timeSinceLevelLoad > attack_time + 0.25f + Random.value * 0.5f)
                     EnemyMeleeAttack();
                 // otherwise move
                 else {
