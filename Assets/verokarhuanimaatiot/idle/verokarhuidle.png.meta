@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 353e94a8e62cf8f47846db43b78307e9
+guid: aa552d031946fe24b8c6f88f98a03f9d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: verokarhuidle_0
+      name: verokarhuidle kopio2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2865
-        width: 1291
-        height: 955
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb45af661c2f6941ac761615e6fe3f7
-      internalID: -580118518
+      spriteID: 82c7c08d67a3c3a4394f598bd0747319
+      internalID: 1018483196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_1
+      name: verokarhuidle kopio2_1
       rect:
         serializedVersion: 2
-        x: 1291
-        y: 2865
-        width: 1291
-        height: 955
+        x: 1833
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccfa907b552ee5c49981c12845b8f7df
-      internalID: 1613301288
+      spriteID: c593c7d745103c046995f723dcf1b46a
+      internalID: -594865285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_2
+      name: verokarhuidle kopio2_2
       rect:
         serializedVersion: 2
-        x: 2582
-        y: 2865
-        width: 1291
-        height: 955
+        x: 3666
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 650b436a4ae61b044979dca5698936b6
-      internalID: 1099281272
+      spriteID: e735b06eddd5fb2478da5308c1f7f781
+      internalID: -1029519356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_3
+      name: verokarhuidle kopio2_3
       rect:
         serializedVersion: 2
-        x: 3873
-        y: 2865
-        width: 1291
-        height: 955
+        x: 5499
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c4ddbf72ac17de48b2c2aa20c2038e4
-      internalID: -447177819
+      spriteID: fde26e83a0b8ea84e976c7887de505ab
+      internalID: 1744915976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_4
+      name: verokarhuidle kopio2_4
       rect:
         serializedVersion: 2
-        x: 5164
-        y: 2865
-        width: 1291
-        height: 955
+        x: 7332
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2318817aff728cf4c9004ee373bf4a19
-      internalID: -248029506
+      spriteID: 3d123e22868eba249b25ffdcdb516cb5
+      internalID: 1839605343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_5
+      name: verokarhuidle kopio2_5
       rect:
         serializedVersion: 2
-        x: 6455
-        y: 2865
-        width: 1291
-        height: 955
+        x: 9165
+        y: 4068.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,146 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07a878eb03f18294fb12b60c679cdcb2
-      internalID: -1848752699
+      spriteID: 9fa6cd6127ebc5241af86e0d8a2945dc
+      internalID: 2104823658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99a3c283138dcad4cb8ce1302a447cf8
-      internalID: -558673190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_7
-      rect:
-        serializedVersion: 2
-        x: 1291
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a46c3cffaa179e448a9b9bc8bb8a8a5c
-      internalID: -68993317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_8
-      rect:
-        serializedVersion: 2
-        x: 2582
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9f200d607648fd4686c37f51af5d8a7
-      internalID: -2134395975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_9
-      rect:
-        serializedVersion: 2
-        x: 3873
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fb305e9eff4c1a4ea948e82c7328b3e
-      internalID: -70164491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_10
-      rect:
-        serializedVersion: 2
-        x: 5164
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe5755c5154aa334da8015fd7dac5091
-      internalID: 24179436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_11
-      rect:
-        serializedVersion: 2
-        x: 6455
-        y: 1910
-        width: 1291
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14b933cd89e303b479a46fdb6b960f4b
-      internalID: 314204984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: verokarhuidle_12
+      name: verokarhuidle kopio2_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 955
-        width: 1291
-        height: 955
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45597f13099e95141b17633cfea391c9
-      internalID: 1554644638
+      spriteID: 4b6fe0d35e3824f4ebda7d69d6536f5e
+      internalID: -283690566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_13
+      name: verokarhuidle kopio2_7
       rect:
         serializedVersion: 2
-        x: 1291
-        y: 955
-        width: 1291
-        height: 955
+        x: 1833
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a4c44c57a096de4dab0cdcbedd7db08
-      internalID: -1392072152
+      spriteID: 93eefaabcb447e5409c2a95ed5e3a0bf
+      internalID: -1963796276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_14
+      name: verokarhuidle kopio2_8
       rect:
         serializedVersion: 2
-        x: 2582
-        y: 955
-        width: 1291
-        height: 955
+        x: 3666
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc9cf87cbd3bcb242ac581d4f37d364e
-      internalID: -397993161
+      spriteID: 19f4b739c3f9e70428b3a1aece0f5b51
+      internalID: 1803146191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_15
+      name: verokarhuidle kopio2_9
       rect:
         serializedVersion: 2
-        x: 3873
-        y: 955
-        width: 1291
-        height: 955
+        x: 5499
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde4bb4a4b38dc04d9b21b182118fc7a
-      internalID: -1813142986
+      spriteID: 4144e517eaa3d9544a06ef45818512d7
+      internalID: 658640214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_16
+      name: verokarhuidle kopio2_10
       rect:
         serializedVersion: 2
-        x: 5164
-        y: 955
-        width: 1291
-        height: 955
+        x: 7332
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9b331678e04484d9c886bd26a16018
-      internalID: -1415703743
+      spriteID: 460a1ccccdc1b184fb33c1698c76b258
+      internalID: -1161206813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_17
+      name: verokarhuidle kopio2_11
       rect:
         serializedVersion: 2
-        x: 6455
-        y: 955
-        width: 1291
-        height: 955
+        x: 9165
+        y: 2712.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d796aa4a03b84ec4683a52ce6e1982b8
-      internalID: 1731855825
+      spriteID: 74709b4eac82aed49971b67bd95a5df7
+      internalID: 2034868009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_18
+      name: verokarhuidle kopio2_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1291
-        height: 955
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa996557b98d7ab48a80bf147b12cbe1
-      internalID: 1980833886
+      spriteID: 885c246c9d21bd2489fa7d8323912b20
+      internalID: -1228570989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: verokarhuidle_19
+      name: verokarhuidle kopio2_13
       rect:
         serializedVersion: 2
-        x: 1291
-        y: 0
-        width: 1291
-        height: 955
+        x: 1833
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,8 +392,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981734e006fe66a42a7933e5aa0126f6
-      internalID: -1163445059
+      spriteID: 1fcecaa40c1915c448f462d44f88300d
+      internalID: 1177595597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_14
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beef38a03a5891c4d85b23d4459c22e8
+      internalID: -1048385719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_15
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9632a8fae2d8db241aec9e7246c57ef6
+      internalID: -1664304030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_16
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697daa98e94b4834c944b46dca1471b0
+      internalID: 541435200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_17
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 1356.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c642e002c5304b9ee3e018ee423c8
+      internalID: 1900946059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78f0da0168542b47890c5788f515a36
+      internalID: 270040968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuidle kopio2_19
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 0.75
+        width: 1833.3334
+        height: 1356.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bde82062dec8024bbfb1563d2b8d14e
+      internalID: 1404719818
       vertices: []
       indices: 
       edges: []
@@ -535,30 +535,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      verokarhuidle_2: 1099281272
-      verokarhuidle_0: -580118518
-      verokarhuidle_9: -70164491
-      verokarhuidle_6: -558673190
-      verokarhuidle_11: 314204984
-      verokarhuidle_22: -831132020
-      verokarhuidle_8: -2134395975
-      verokarhuidle_4: -248029506
-      verokarhuidle_1: 1613301288
-      verokarhuidle_20: 332814344
-      verokarhuidle_3: -447177819
-      verokarhuidle_7: -68993317
-      verokarhuidle_12: 1554644638
-      verokarhuidle_23: 127120495
-      verokarhuidle_18: 1980833886
-      verokarhuidle_16: -1415703743
-      verokarhuidle_19: -1163445059
-      verokarhuidle_17: 1731855825
-      verokarhuidle_13: -1392072152
-      verokarhuidle_15: -1813142986
-      verokarhuidle_5: -1848752699
-      verokarhuidle_10: 24179436
-      verokarhuidle_14: -397993161
-      verokarhuidle_21: 190319577
+      verokarhuidle kopio2_16: 541435200
+      verokarhuidle kopio2_11: 2034868009
+      verokarhuidle kopio2_20: -733566009
+      verokarhuidle kopio2_21: -1643099423
+      verokarhuidle kopio2_3: 1744915976
+      verokarhuidle kopio2_7: -1963796276
+      verokarhuidle kopio2_13: 1177595597
+      verokarhuidle kopio2_15: -1664304030
+      verokarhuidle kopio2_9: 658640214
+      verokarhuidle kopio2_18: 270040968
+      verokarhuidle kopio2_4: 1839605343
+      verokarhuidle kopio2_14: -1048385719
+      verokarhuidle kopio2_19: 1404719818
+      verokarhuidle kopio2_8: 1803146191
+      verokarhuidle kopio2_17: 1900946059
+      verokarhuidle kopio2_1: -594865285
+      verokarhuidle kopio2_0: 1018483196
+      verokarhuidle kopio2_2: -1029519356
+      verokarhuidle kopio2_5: 2104823658
+      verokarhuidle kopio2_12: -1228570989
+      verokarhuidle kopio2_10: -1161206813
+      verokarhuidle kopio2_22: -1583347182
+      verokarhuidle kopio2_6: -283690566
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
