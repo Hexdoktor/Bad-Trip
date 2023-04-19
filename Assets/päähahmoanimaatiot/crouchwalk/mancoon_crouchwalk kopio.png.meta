@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: e5c187cc22aa930429b418da2ab9c436
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af339c4b65a1f94897c8aab1a8d3d73
+      internalID: 1111795337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cfbbd17db69344eb91a915c0c00ecc
+      internalID: 1493484868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_2
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9c2f71077b463458ad3c8449accccc
+      internalID: -1759918750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_3
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5ba8a723709c44a41bf367485c3c2
+      internalID: 2136401469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_4
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5e1323fd320204f93c5493c411bd40
+      internalID: 1877760083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_5
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbde480af9d16f4aa1fb3052d305bbd
+      internalID: 87608889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_6
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ecba5d2f42a9c4fbbdd595e99ab161
+      internalID: -656742995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_7
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff9f736d6d11ca41a3beba79b99f091
+      internalID: -986742491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_8
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 2292.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b99c7e59880aa41858bc7a8979fac9
+      internalID: 440889880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceccc365bb0e1db4687d2f57c08b19dd
+      internalID: -363196555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fd2da0ed4c60e408bab1aff522f292
+      internalID: 182865347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_11
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90171561132ef24fb713da89df06025
+      internalID: -392523054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_12
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5d8d2a3748de45924de20950db254
+      internalID: -670070893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_13
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e40d02f14a08143aeaf03166d7d78a
+      internalID: -100357571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_14
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70870bb5a227e2e439eca57127679f76
+      internalID: 496689188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_15
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2700efb7571fca94f8bcedba62410925
+      internalID: -485073494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_16
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6cc363947fa54199bbf8fdec775de
+      internalID: -98070916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_17
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 1528.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f5647f8f62d8047982acf1c2b9b712
+      internalID: 1758473520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ea40f51978004ca453d78bf98fc01
+      internalID: -2135372010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2393cdb09b4d14d95ee35d1d51ace1
+      internalID: -835614887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_20
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549c35ed67a430f4c9371a77a3d414de
+      internalID: -1058818671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_21
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d39a1dee716e6347bff78b6163ea08f
+      internalID: -1392699936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_22
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c175f4ef496274ca903d5f581d0b47
+      internalID: -1958118236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_23
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94429910fb7d228478546e212fedd42d
+      internalID: 215306675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_24
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef936f0e3b57641a8ec3b70387ccb7
+      internalID: 599316080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_25
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a56f33b8bdd2a54bb42deb3fe1a09c0
+      internalID: 56181315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_26
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 764.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de577c81e3f7164bad100e06f52b7ab
+      internalID: -1865623116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4593bd51b8d3046488a8c59f6b85729c
+      internalID: -192150471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_28
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22695964a325a1d4f952123b73501e8f
+      internalID: -86134236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_29
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77887296ac6767f42afb0bbaa9954cc2
+      internalID: -171352903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_30
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed78c9ab89d40e468dafa81fd6711d0
+      internalID: -1243151347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_31
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6230b5f1af32a6346bb389d2ed98b852
+      internalID: -489068588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_32
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743c5a81577a4574cb2a50613a3a54a3
+      internalID: 1457044609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchwalk kopio_33
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 0.75
+        width: 836.1111
+        height: 764.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51178b861bbbfc64e8b8e5fd7ae2fb4f
+      internalID: 1519625713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mancoon_crouchwalk kopio_24: 599316080
+      mancoon_crouchwalk kopio_26: -1865623116
+      mancoon_crouchwalk kopio_0: 1111795337
+      mancoon_crouchwalk kopio_21: -1392699936
+      mancoon_crouchwalk kopio_18: -2135372010
+      mancoon_crouchwalk kopio_7: -986742491
+      mancoon_crouchwalk kopio_6: -656742995
+      mancoon_crouchwalk kopio_25: 56181315
+      mancoon_crouchwalk kopio_16: -98070916
+      mancoon_crouchwalk kopio_1: 1493484868
+      mancoon_crouchwalk kopio_29: -171352903
+      mancoon_crouchwalk kopio_17: 1758473520
+      mancoon_crouchwalk kopio_20: -1058818671
+      mancoon_crouchwalk kopio_34: -381633872
+      mancoon_crouchwalk kopio_2: -1759918750
+      mancoon_crouchwalk kopio_4: 1877760083
+      mancoon_crouchwalk kopio_12: -670070893
+      mancoon_crouchwalk kopio_28: -86134236
+      mancoon_crouchwalk kopio_14: 496689188
+      mancoon_crouchwalk kopio_13: -100357571
+      mancoon_crouchwalk kopio_33: 1519625713
+      mancoon_crouchwalk kopio_35: -1540249226
+      mancoon_crouchwalk kopio_23: 215306675
+      mancoon_crouchwalk kopio_15: -485073494
+      mancoon_crouchwalk kopio_11: -392523054
+      mancoon_crouchwalk kopio_10: 182865347
+      mancoon_crouchwalk kopio_30: -1243151347
+      mancoon_crouchwalk kopio_19: -835614887
+      mancoon_crouchwalk kopio_9: -363196555
+      mancoon_crouchwalk kopio_22: -1958118236
+      mancoon_crouchwalk kopio_32: 1457044609
+      mancoon_crouchwalk kopio_31: -489068588
+      mancoon_crouchwalk kopio_3: 2136401469
+      mancoon_crouchwalk kopio_5: 87608889
+      mancoon_crouchwalk kopio_8: 440889880
+      mancoon_crouchwalk kopio_27: -192150471
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
