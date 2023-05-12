@@ -129,14 +129,14 @@ public class EnemyMover : MonoBehaviour
         Vector2 vec = new Vector2(move_dir * 5.0f, 0);
         hit = Physics2D.Linecast(rb.position, rb.position + vec, Player);
         if(hit) {
-            //col.gameObject.SendMessage("ApplyDamage", 1); // sends a message to the player, calling this function named ApplyDamage with value 1
-            hit.collider.attachedRigidbody.AddForce(Vector2.right * 5, ForceMode2D.Impulse); // maybe the damage function pushes the player back?
+            // maybe the damage function pushes the player back? Does it happen?
+            hit.collider.attachedRigidbody.AddForce(Vector2.right * 5, ForceMode2D.Impulse);
             rb.AddForce(Vector2.right * 5 * move_dir, ForceMode2D.Impulse);
-            // for now here's just a debug log about the hit connecting
-            Debug.Log("Enemy hit Player, ouch!");
 
-            playerHealth.TakeDamage(damage);
+            // do the damage
+            hit.collider.gameObject.SendMessage("TakeDamage", damage);
             
+            // spawn blood
             GameObject blood = Instantiate(bloodsplat, hit.collider.attachedRigidbody.position, Quaternion.identity);
             blood.GetComponent<ParticleSystem>().Play();
             
