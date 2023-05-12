@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 1a53783ae48da7745ad7657294b1f3e3
   - enabled: 1
-    path: Assets/Scenes/Bad Trip First Level.unity
+    path: Assets/Scenes/Bad Trip Test Level.unity
     guid: 210ebe086281340468dedacde8da2752
+  - enabled: 0
+    path: Assets/Scenes/Bad-Trip_1.0.unity
+    guid: f45e61691d19d6a41b98becd93315a43
   m_configObjects: {}

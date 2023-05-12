@@ -20,11 +20,13 @@ public class PlayerMovement : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
         
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
             animator.SetBool("IsJumping", true);
+            FindObjectOfType<AudioManager>().Play("Jumping");
         }
          
         if (Input.GetButtonDown("Crouch"))
@@ -39,7 +41,9 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
+        FindObjectOfType<AudioManager>().Play("Landing");
     }
+        
 
 
     void FixedUpdate()

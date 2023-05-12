@@ -30,7 +30,8 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
-
+        FindObjectOfType<AudioManager>().Play("TakingDamage");
+        
         if (currentHealth <= 0 && !isDead)
 
         {

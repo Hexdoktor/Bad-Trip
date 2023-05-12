@@ -36,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         animator.SetTrigger("Attack");
-
+        FindObjectOfType<AudioManager>().Play("StickSwing");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         

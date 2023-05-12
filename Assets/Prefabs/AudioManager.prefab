@@ -47,25 +47,61 @@ MonoBehaviour:
   sounds:
   - name: PlayerDeath
     clip: {fileID: 8300000, guid: c45e708303d4f07468ad49db8c12f6c2, type: 3}
-    volume: 0.715
+    volume: 0.349
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Theme
-    clip: {fileID: 8300000, guid: 22ae7a223f17b744e96005cc8f56058d, type: 3}
-    volume: 0.355
+    clip: {fileID: 8300000, guid: 993dba1353687a640921d7cdd23c5f20, type: 3}
+    volume: 0.099
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: MenuTheme
     clip: {fileID: 8300000, guid: f0292ec94805d07489b8adf12ba55e1d, type: 3}
-    volume: 0.355
+    volume: 0.151
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: ItemCollect
-    clip: {fileID: 8300000, guid: 177952fc94d26c240baa5eecb7839da3, type: 3}
-    volume: 0.355
-    pitch: 1
+    clip: {fileID: 8300000, guid: c9539564ee7704c429ccd9f619d4d1f7, type: 3}
+    volume: 0.184
+    pitch: 1.56
+    loop: 0
+    source: {fileID: 0}
+  - name: TakingDamage
+    clip: {fileID: 8300000, guid: 4fe635a290eee09488fb8ccc80ef8f66, type: 3}
+    volume: 0.325
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: StickSwing
+    clip: {fileID: 8300000, guid: c33a41feb3e8ff041abf84b80c907c16, type: 3}
+    volume: 0.233
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Running
+    clip: {fileID: 8300000, guid: c71fc76aca131cf4490c9e1f3553d39b, type: 3}
+    volume: 0.349
+    pitch: 1.2
+    loop: 1
+    source: {fileID: 0}
+  - name: StickSwat
+    clip: {fileID: 8300000, guid: 179dcb5cdbe47334bb383467f0e45ff5, type: 3}
+    volume: 0.227
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Jumping
+    clip: {fileID: 8300000, guid: 1365822a314c11447a7c53ba003781b6, type: 3}
+    volume: 0.619
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Landing
+    clip: {fileID: 8300000, guid: c0f68ce8fc265bf45a434b9c40d461ad, type: 3}
+    volume: 0.233
+    pitch: 1.2
     loop: 0
     source: {fileID: 0}

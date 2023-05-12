@@ -167,8 +167,11 @@ public class EnemyMover : MonoBehaviour
         ParticleSystem ps;
         currentHealth -= damage;
 
+        FindObjectOfType<AudioManager>().Play("StickSwat");
+
         animator.SetTrigger("Hurt");
         animator.ResetTrigger("Attack");
+
 
         pain_time = Time.timeSinceLevelLoad + 1.0f;
 
