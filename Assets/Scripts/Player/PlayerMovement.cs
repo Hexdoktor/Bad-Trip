@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Jumping");
         }
          
+        
+        
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
