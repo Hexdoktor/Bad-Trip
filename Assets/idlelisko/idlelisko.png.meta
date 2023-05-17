@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: b16cb5067e1dac44aaa001c34fa6162d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idlelisko_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd3c3c13ab31847b15f2b0b87bc7e2
+      internalID: -1370162333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_1
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc09743bb20c4346a1c6e640400e706
+      internalID: 1923057629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_2
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae250c2f4df4c5418314b90c24b8652
+      internalID: 1913649985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_3
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71302a9ae934e9048a95c2314629a202
+      internalID: 247947553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_4
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b669e9282c4f4fabec5da17c6694e
+      internalID: 248556919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_5
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2564.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee1d373a356f364bb4e7f8d5eb91b2d
+      internalID: 1682690644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b455b5af1cd9e0f4dafd236bdd04d52d
+      internalID: -990986366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_7
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9a653a499c00048b89b61f00c897f5
+      internalID: -655008718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_8
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e067c6958e4437145a8f9cecefc2e5e9
+      internalID: 1843224953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_9
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdca8374f921cdb438976a25ce7a828f
+      internalID: -366351157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_10
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf7e6d29e98cb24eb50345c422bde92
+      internalID: 1442696309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_11
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2052.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc664314f180fe4a98236fc744ffbe1
+      internalID: -558288240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253dfbf9344f18b479c34be273a1ff66
+      internalID: -1485292435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_13
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039141bfa3364fa44bfb1080849fe020
+      internalID: 523479734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_14
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9c0043bc5487649acf8c317f29f479
+      internalID: -32790041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_15
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671b11532a2dbda4ab2fdea2bef9b739
+      internalID: -231077643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_16
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa7de6c54bcaad42b8d45949344272d
+      internalID: 97904791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_17
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1540.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6644ca81292995b4da335bd49dbbb402
+      internalID: -664192780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a6d63b33f88354ca88e46a088e07a8
+      internalID: -37240555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_19
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f3dac0c2d36994dbe50c0fd3bd376e
+      internalID: -871741328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_20
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0bbb347def15142995f1e958ab3af3
+      internalID: -573777013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_21
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db005741ce21aba4283835281768fc12
+      internalID: 687551782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_22
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c27af7da642ddc42a5d5b5cf7d755a5
+      internalID: 1283618369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_23
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1028.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0f84a6d2907454ebd5645d9f85f5c8
+      internalID: 1065457881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becfbee1d2711a648a48cbd0ce69596d
+      internalID: 2089547430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_25
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7998b199658349c47b8a326c1da36a0b
+      internalID: 2104906823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_26
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e51383d4af513418d573977e3d7abb
+      internalID: 679659764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_27
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5c168b6e46a047b25170a9b1a2b7a
+      internalID: 232357771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_28
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644652b81a24c04ab0a00b68fcc4eb9
+      internalID: 741183597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_29
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 516.1667
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4252442b1c9f34c808f77847460c24
+      internalID: -999010185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4.166687
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358b5cea907016845b357c609cac6c0f
+      internalID: -1571850818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_31
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 4.166687
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8b588246c3ab44e95047a676150013
+      internalID: 1184814164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_32
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 4.166687
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb76799b9c74d0d4ba3adf2a72962aca
+      internalID: -2133977211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_33
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 4.166687
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d19a02bb33a46e4882d3f014370645f
+      internalID: 1961517463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idlelisko_34
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 4.166687
+        width: 668
+        height: 512.8333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b559a6babb67684b881420a646d0e31
+      internalID: -1522149137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idlelisko_26: 679659764
+      idlelisko_16: 97904791
+      idlelisko_23: 1065457881
+      idlelisko_4: 248556919
+      idlelisko_7: -655008718
+      idlelisko_8: 1843224953
+      idlelisko_24: 2089547430
+      idlelisko_27: 232357771
+      idlelisko_6: -990986366
+      idlelisko_20: -573777013
+      idlelisko_0: -1370162333
+      idlelisko_3: 247947553
+      idlelisko_19: -871741328
+      idlelisko_32: -2133977211
+      idlelisko_25: 2104906823
+      idlelisko_5: 1682690644
+      idlelisko_18: -37240555
+      idlelisko_1: 1923057629
+      idlelisko_2: 1913649985
+      idlelisko_10: 1442696309
+      idlelisko_17: -664192780
+      idlelisko_14: -32790041
+      idlelisko_22: 1283618369
+      idlelisko_30: -1571850818
+      idlelisko_29: -999010185
+      idlelisko_11: -558288240
+      idlelisko_21: 687551782
+      idlelisko_28: 741183597
+      idlelisko_15: -231077643
+      idlelisko_12: -1485292435
+      idlelisko_13: 523479734
+      idlelisko_9: -366351157
+      idlelisko_31: 1184814164
+      idlelisko_33: 1961517463
+      idlelisko_34: -1522149137
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
