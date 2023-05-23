@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: 65dad1aab23f8ae479d7b2c3a7980f26
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc829ebfb284af145afbab40cc4cb38e
+      internalID: -2101267663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_1
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2184d60a5222f4c4a9dcaae657e57d97
+      internalID: 1389406768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_2
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42b6e7cd5bcd934f9e692e34653a943
+      internalID: -689760876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_3
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e9112f00850464a80a46a5b88540cd
+      internalID: 624210099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_4
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804715295eaafcd4ea4c406f480f3d01
+      internalID: -1875877281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_5
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 6780.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4ad7abe9632f24db0e5cd11134afb6
+      internalID: 2014351037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e922a6f8d7f8cad448b7e59440b12635
+      internalID: 1170122619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_7
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12207c473628904d939bf940d929cfd
+      internalID: -1164027675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_8
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550da12f6d1ad1b48a259cc2e093fd17
+      internalID: -599688871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_9
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fcb6bad28ef0a489b112621298c6b0
+      internalID: -350264845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_10
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626ddfceb6248d844999c19c54a23e21
+      internalID: -1513405164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_11
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 5424.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535c758a111ab0d4d893b9982e3680ff
+      internalID: 300252203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73024032c11729d47b0f3d11fdbba61d
+      internalID: 2032298867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_13
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0d73a9da05ca489acb3016ffb5126
+      internalID: 992027655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_14
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bb8af686138c445b7b3c298ffbc893
+      internalID: 637877812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_15
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a1f1af24221f4995b4f02f2827d57
+      internalID: 851489367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_16
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fae77729904c84693997304b489ec7
+      internalID: -900636597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_17
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 4068.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebadd123d7ad5ba45afaa569fd44d60d
+      internalID: -1481435347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09ca96e76b8caa43b6da47f8799a0aa
+      internalID: -1614337977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_19
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08bad09744251141a28e1fcaef5cacc
+      internalID: 1356622982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_20
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b66d0d4ad439428cd95e8f054a984
+      internalID: 1200844357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_21
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1c7db384ab42f408d86fecc02f1848
+      internalID: 4298167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_22
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d273046786398ae49855b071c65bd99a
+      internalID: -284123720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_23
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 2712.8335
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12eb02f67c2cfe49944f598682ae1c1
+      internalID: -1603198822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e01d50437da7de4b8e356f9810a6447
+      internalID: 399883449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_25
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319978fe3b3eabc45b6cb1f026be1e78
+      internalID: 806223279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_26
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2eb455bd31f4747bc720da62524593
+      internalID: 1597994426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_27
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078e7b0c3226f3b47aac8e3f6e15921f
+      internalID: -732388874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_28
+      rect:
+        serializedVersion: 2
+        x: 7332
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3023eed1582694b8dca944847ac364
+      internalID: -1834436179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_29
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 1356.8334
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235feff63ffd95498b9dace45febdda
+      internalID: 194260654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.833374
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ef33fc972140a42946565580c7d44e
+      internalID: 912599516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_31
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 0.833374
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aac323882839e4ab39b6ee8362f267
+      internalID: 1268870694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verokarhuwalk kopio2_32
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 0.833374
+        width: 1833.3334
+        height: 1356.1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d4a2071f5f6b7438a98321e0dfd5f8
+      internalID: 609471943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      verokarhuwalk kopio2_4: -1875877281
+      verokarhuwalk kopio2_23: -1603198822
+      verokarhuwalk kopio2_7: -1164027675
+      verokarhuwalk kopio2_12: 2032298867
+      verokarhuwalk kopio2_21: 4298167
+      verokarhuwalk kopio2_14: 637877812
+      verokarhuwalk kopio2_26: 1597994426
+      verokarhuwalk kopio2_28: -1834436179
+      verokarhuwalk kopio2_6: 1170122619
+      verokarhuwalk kopio2_31: 1268870694
+      verokarhuwalk kopio2_0: -2101267663
+      verokarhuwalk kopio2_5: 2014351037
+      verokarhuwalk kopio2_17: -1481435347
+      verokarhuwalk kopio2_11: 300252203
+      verokarhuwalk kopio2_20: 1200844357
+      verokarhuwalk kopio2_30: 912599516
+      verokarhuwalk kopio2_25: 806223279
+      verokarhuwalk kopio2_9: -350264845
+      verokarhuwalk kopio2_18: -1614337977
+      verokarhuwalk kopio2_29: 194260654
+      verokarhuwalk kopio2_22: -284123720
+      verokarhuwalk kopio2_2: -689760876
+      verokarhuwalk kopio2_32: 609471943
+      verokarhuwalk kopio2_15: 851489367
+      verokarhuwalk kopio2_1: 1389406768
+      verokarhuwalk kopio2_13: 992027655
+      verokarhuwalk kopio2_8: -599688871
+      verokarhuwalk kopio2_19: 1356622982
+      verokarhuwalk kopio2_10: -1513405164
+      verokarhuwalk kopio2_27: -732388874
+      verokarhuwalk kopio2_3: 624210099
+      verokarhuwalk kopio2_16: -900636597
+      verokarhuwalk kopio2_24: 399883449
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

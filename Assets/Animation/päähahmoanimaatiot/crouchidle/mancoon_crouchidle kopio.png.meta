@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 28f59db80469f0d489fead8622618a88
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c3d86a1ce56d4a8eb60c053590485
+      internalID: -656747027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_1
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d965c4f28bc9f8042be0ea998b96de34
+      internalID: 431666379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_2
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f39f0e935a987a43aa68281321bcea8
+      internalID: -2126718788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_3
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ea29b89a4f5a64fa6de64af3b8cfd3
+      internalID: -1927749623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_4
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b03f6c677e87564399e703bec97b86e
+      internalID: 931653867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_5
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834e1aab5007f4941977787f8af0a299
+      internalID: 1236246176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_6
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de54ef8fb73cd3c43afb9cabcc741f01
+      internalID: -1910791783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_7
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4446c76d35fab224eb0f0f6c4735c32d
+      internalID: 855383285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_8
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 1528.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436180eab97168c40b753eb9b675cefd
+      internalID: 865138380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db81dc85173251d4ebff3ca7950f76ed
+      internalID: -340466393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981b6d03c28026d44b4f5e603a56b800
+      internalID: -1772571426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_11
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387dbd9c6c836524c9415a58914da475
+      internalID: 787097892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_12
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633c0d1866f226a47a0b345b85995003
+      internalID: -1319391477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_13
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5fdc4a01a009b4886ac0a0c6ccad5a
+      internalID: 871393811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_14
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa998a199771946b013f8e8b880e7c
+      internalID: 650699195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_15
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daccac8bb76dcfb4bb0b6fa5ef192117
+      internalID: 1081451267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_16
+      rect:
+        serializedVersion: 2
+        x: 5852
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790b3ef65de67b14e80ff3de97d4a7d7
+      internalID: -880896207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_17
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 764.6667
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a3b07fb145ca43b279360c7dac1d6
+      internalID: 1489232485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4c5fe37ec980e46bf02c0b219bde6d
+      internalID: 1196675313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a028e251cfe44a4489c128b6b9883043
+      internalID: 1184402301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_20
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb853365748d564f9a57e49ec45fffb
+      internalID: 1801442485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_21
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2db3a6969cd3c4e92b11f4008382c4
+      internalID: 967413514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_22
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d058a8dc05b8a46abe9bb08678cb86
+      internalID: -752463719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_23
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f463d56c2d8c9419c2cedebf92d35d
+      internalID: -534415972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_crouchidle kopio_24
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 0.666687
+        width: 836.1111
+        height: 764.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b9ee5220f942f48a05b7a80cfaf578
+      internalID: 930105267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mancoon_crouchidle kopio_16: -880896207
+      mancoon_crouchidle kopio_9: -340466393
+      mancoon_crouchidle kopio_3: -1927749623
+      mancoon_crouchidle kopio_13: 871393811
+      mancoon_crouchidle kopio_5: 1236246176
+      mancoon_crouchidle kopio_17: 1489232485
+      mancoon_crouchidle kopio_6: -1910791783
+      mancoon_crouchidle kopio_8: 865138380
+      mancoon_crouchidle kopio_10: -1772571426
+      mancoon_crouchidle kopio_25: 1671192116
+      mancoon_crouchidle kopio_4: 931653867
+      mancoon_crouchidle kopio_22: -752463719
+      mancoon_crouchidle kopio_1: 431666379
+      mancoon_crouchidle kopio_7: 855383285
+      mancoon_crouchidle kopio_24: 930105267
+      mancoon_crouchidle kopio_19: 1184402301
+      mancoon_crouchidle kopio_2: -2126718788
+      mancoon_crouchidle kopio_18: 1196675313
+      mancoon_crouchidle kopio_15: 1081451267
+      mancoon_crouchidle kopio_20: 1801442485
+      mancoon_crouchidle kopio_11: 787097892
+      mancoon_crouchidle kopio_23: -534415972
+      mancoon_crouchidle kopio_26: -1050428297
+      mancoon_crouchidle kopio_21: 967413514
+      mancoon_crouchidle kopio_0: -656747027
+      mancoon_crouchidle kopio_14: 650699195
+      mancoon_crouchidle kopio_12: -1319391477
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

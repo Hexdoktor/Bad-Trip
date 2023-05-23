@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 03c03f06949ec4c43beb261b411fb393
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mancoon_hit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439013d2b5cce7a42bd000665ef5f78b
+      internalID: 693046184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_1
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d77eb72b6144fd4a9336711736ddc2b
+      internalID: -1790602734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_2
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ebc459bb8fe274bb4c659ba2c3b83c
+      internalID: -3479669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_3
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1fd3edbcdfc9e47b8939320b070026
+      internalID: -203829412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_4
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7221c6c3ab6f444b7b0dea0954a08a
+      internalID: -913194620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_5
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b435c345de1cd42a0efbf70ea87135
+      internalID: -241629536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_6
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca76fb291bcca94784df63dca07eb7b
+      internalID: 1649093663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_7
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91882bd5b493db4fb071216516141aa
+      internalID: -717153689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_8
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 1531.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47bc74c8208778458f292c6c0ef1ee0
+      internalID: -980203734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a558fd5a666fb29438e1b33d866150e1
+      internalID: -337303981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_10
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33b4ff3be69d6340a5768de8ac036d6
+      internalID: -973250692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_11
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7badf56dbadee8d43afaa7a89a73692f
+      internalID: 2075889998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_12
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827ba48320ea1543af36093385dd270
+      internalID: -2144010487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_13
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f6230a172071c43becbb71aad0495f
+      internalID: -291275889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_14
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad447ba16862b489f80cf4b9225c5f
+      internalID: -1201321509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_15
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a784ab7ad7eb3409f46d60cba70e1d
+      internalID: 1897493616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_16
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2551428f9a585fe4fb7dbb7fe0e85d5a
+      internalID: -446139210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_17
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 766.3333
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3605a330e87a60f4aa03eea1ae9ac26e
+      internalID: 641516473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.333313
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c750336b152e5641b817c528f8282bf
+      internalID: -166509819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_19
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1.333313
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831a62641cc04fb4884edce67ed9055b
+      internalID: 495041934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_20
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1.333313
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972373a92ccdb18448ec33f1913bb516
+      internalID: 4075690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_21
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1.333313
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd805dc966479a42b56c530bec61eef
+      internalID: -364651321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mancoon_hit_22
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 1.333313
+        width: 894
+        height: 765.6667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024ca7c0192509e439bcc9ad43fe6aa7
+      internalID: 429214882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mancoon_hit_12: -2144010487
+      mancoon_hit_18: -166509819
+      mancoon_hit_20: 4075690
+      mancoon_hit_7: -717153689
+      mancoon_hit_9: -337303981
+      mancoon_hit_1: -1790602734
+      mancoon_hit_10: -973250692
+      mancoon_hit_3: -203829412
+      mancoon_hit_11: 2075889998
+      mancoon_hit_2: -3479669
+      mancoon_hit_16: -446139210
+      mancoon_hit_8: -980203734
+      mancoon_hit_0: 693046184
+      mancoon_hit_14: -1201321509
+      mancoon_hit_6: 1649093663
+      mancoon_hit_4: -913194620
+      mancoon_hit_17: 641516473
+      mancoon_hit_13: -291275889
+      mancoon_hit_5: -241629536
+      mancoon_hit_15: 1897493616
+      mancoon_hit_21: -364651321
+      mancoon_hit_19: 495041934
+      mancoon_hit_22: 429214882
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
