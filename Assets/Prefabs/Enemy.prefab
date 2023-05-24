@@ -162,7 +162,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 1
   stepheight: 1.5
-  dropheight: 4
+  dropheight: 5
   waitforplayer: 1
   actdistance: 0
   attackdistance: 0

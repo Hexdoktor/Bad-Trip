@@ -62,14 +62,22 @@ public class EnemyMover : MonoBehaviour
         Vector2 vec = new Vector2(0, dropheight);
         hit = Physics2D.Linecast(rb.position, rb.position - vec, Ground);
         if(!hit) {
-            //if(Time.timeSinceLevelLoad > move_time)
-            if(landed == true)
+            if(landed)
                 ChangeMoveDir();
             landed = false;
             return;
         }
-        else
-            landed = true;
+        else {
+            vec = new Vector2(0, size.y * 0.5f + 0.1f);
+            if(Physics2D.Linecast(rb.position, rb.position - vec, Ground)) {
+                // just landed, add some move_time because apparently landing activates the stepping up stairs code, huh
+                if(!landed)
+                    move_time = Time.timeSinceLevelLoad + 0.25f;
+                landed = true;
+            }
+            else
+                landed = false;
+        }
         // on a slope
         float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
         // check for stepping up or a wall
@@ -78,11 +86,13 @@ public class EnemyMover : MonoBehaviour
         else
             vec = new Vector2(1.0f, 0.0f);
         // hit something
-        if(Physics2D.CapsuleCast(rb.position, size*0.95f, CapsuleDirection2D.Vertical, 0, vec, stepheight, Ground)) {
+        if(Physics2D.CapsuleCast(rb.position, size*0.99f, CapsuleDirection2D.Vertical, 0, vec, size.x+0.1f, Ground)) {
             // can be stepped up?
-            if(!Physics2D.CapsuleCast(rb.position + new Vector2(0, stepheight + 0.1f), size*0.95f, CapsuleDirection2D.Vertical, 0, vec, stepheight, Ground)) {
-                if(slopeAngle == 0)
+            if(!Physics2D.CapsuleCast(rb.position + new Vector2(0, stepheight + 0.1f), size*0.99f, CapsuleDirection2D.Vertical, 0, vec, size.x+0.1f, Ground)) {
+                if(slopeAngle == 0 && landed && Time.timeSinceLevelLoad > move_time) {
                     transform.Translate(0, stepheight + 0.1f, 0);
+                    move_time = Time.timeSinceLevelLoad + 0.1f;
+                }
             }
             else
                 ChangeMoveDir();
@@ -349,11 +359,11 @@ public class EnemyMover : MonoBehaviour
             return;
         // colliding with another enemy or a wall, turn away
         if(col.gameObject.tag == "Enemy" || col.gameObject.tag == "Wall") {
+            move_time = 0;
             ChangeMoveDir();
             return;
         }
         transform.Translate(move_dir * - 1 * moveSpeed * Time.deltaTime, 0, 0);
-        //col.gameObject.SendMessage("ApplyDamage", 1);
         ChangeMoveDir();
     }
 }

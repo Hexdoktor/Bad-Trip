@@ -161,8 +161,8 @@ MonoBehaviour:
   bloodsplat: {fileID: 5219562080686374615, guid: 41660b42587a2764f857a8dcc4b5ba85, type: 3}
   moveSpeed: 5
   jumpForce: 25
-  stepheight: 5
-  dropheight: 10
+  stepheight: 3
+  dropheight: 8
   waitforplayer: 0
   actdistance: 30
   attackdistance: 15
