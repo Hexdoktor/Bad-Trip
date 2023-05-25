@@ -22,6 +22,7 @@ public class EnemyMover : MonoBehaviour
     bool landed; // maybe useless / didn't want to work right
 
     float attack_time; // doing an attack
+    float attack_count;
     bool attack_hit; // marker for the current attack hit player, cleared when attack has finished
     float pain_time; // being hurt
     float move_time; // used to be time when to turn around, but is now used for jumping time
@@ -40,6 +41,9 @@ public class EnemyMover : MonoBehaviour
 
     void ChangeMoveDir()
     {
+        if(Time.timeSinceLevelLoad < move_time)
+            return;
+        move_time = Time.timeSinceLevelLoad + 0.1f;
         // randomize at level startup
         if(move_dir == 0) {
             if(Random.value < 0.5f)
@@ -58,9 +62,21 @@ public class EnemyMover : MonoBehaviour
         Vector2 vec = new Vector2(0, dropheight);
         hit = Physics2D.Linecast(rb.position, rb.position - vec, Ground);
         if(!hit) {
-            if(Time.timeSinceLevelLoad > move_time)
+            if(landed)
                 ChangeMoveDir();
+            landed = false;
             return;
+        }
+        else {
+            vec = new Vector2(0, size.y * 0.5f + 0.1f);
+            if(Physics2D.Linecast(rb.position, rb.position - vec, Ground)) {
+                // just landed, add some move_time because apparently landing activates the stepping up stairs code, huh
+                if(!landed)
+                    move_time = Time.timeSinceLevelLoad + 0.25f;
+                landed = true;
+            }
+            else
+                landed = false;
         }
         // on a slope
         float slopeAngle = Vector2.Angle(hit.normal, Vector2.up);
@@ -70,11 +86,13 @@ public class EnemyMover : MonoBehaviour
         else
             vec = new Vector2(1.0f, 0.0f);
         // hit something
-        if(Physics2D.CapsuleCast(rb.position, size*0.95f, CapsuleDirection2D.Vertical, 0, vec, stepheight, Ground)) {
+        if(Physics2D.CapsuleCast(rb.position, size*0.99f, CapsuleDirection2D.Vertical, 0, vec, size.x+0.1f, Ground)) {
             // can be stepped up?
-            if(!Physics2D.CapsuleCast(rb.position + new Vector2(0, stepheight + 0.1f), size*0.95f, CapsuleDirection2D.Vertical, 0, vec, stepheight, Ground)) {
-                if(slopeAngle == 0)
+            if(!Physics2D.CapsuleCast(rb.position + new Vector2(0, stepheight + 0.1f), size*0.99f, CapsuleDirection2D.Vertical, 0, vec, size.x+0.1f, Ground)) {
+                if(slopeAngle == 0 && landed && Time.timeSinceLevelLoad > move_time) {
                     transform.Translate(0, stepheight + 0.1f, 0);
+                    move_time = Time.timeSinceLevelLoad + 0.1f;
+                }
             }
             else
                 ChangeMoveDir();
@@ -90,7 +108,7 @@ public class EnemyMover : MonoBehaviour
 
     bool IsGrounded()
     {
-        Vector2 vec = new Vector2(0, 2.5f);
+        Vector2 vec = new Vector2(0, size.y * 0.5f + 0.5f);
         if (Physics2D.Linecast(rb.position, rb.position - vec, Ground))
             return true;
         //else if (Physics2D.Linecast(rb.position, rb.position - vec, enemyLayer))
@@ -102,7 +120,7 @@ public class EnemyMover : MonoBehaviour
     void JumpEnemy()
     {
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        move_time = Time.timeSinceLevelLoad + 2.5f;
+        move_time = Time.timeSinceLevelLoad + 0.5f;
         landed = false;
     }
 
@@ -114,9 +132,66 @@ public class EnemyMover : MonoBehaviour
                 move_dir = 1;
             else
                 move_dir = -1;
-            transform.localScale = new Vector3(-1*move_dir, 1, 1);
-            transform.Translate(move_dir * moveSpeed*1.5f * Time.deltaTime, 0, 0);
+            if(Time.timeSinceLevelLoad > move_time) {
+                transform.localScale = new Vector3(-1*move_dir, 1, 1);
+                move_time = Time.timeSinceLevelLoad + 0.5f;
+            }
+            if(landed == true)
+                transform.Translate(move_dir * moveSpeed*1.5f * Time.deltaTime, 0, 0);
         }
+    }
+
+    // checks if the boss earthquake attack can hit player
+    void BossEarthQuakeHitPlayer()
+    {
+        // has already hit
+        if(attack_hit == true)
+            return;
+        Collider2D col;
+        col = Physics2D.OverlapBox(rb.position + new Vector2(0, -3.5f), new Vector2(20, 4), 0, Player);
+        if(col) {
+            col.attachedRigidbody.AddForce(new Vector2(-15 + Random.value * 30, 30), ForceMode2D.Impulse);
+
+            // do the damage
+            col.gameObject.SendMessage("TakeDamage", damage);
+            
+            // spawn blood
+            GameObject blood = Instantiate(bloodsplat, col.attachedRigidbody.position, Quaternion.identity);
+            blood.GetComponent<ParticleSystem>().Play();
+
+            attack_hit = true;
+        }
+        move_time = Time.timeSinceLevelLoad + 0.5f;
+        attack_time = Time.timeSinceLevelLoad + 1.5f;
+    }
+
+    // checks if the boss has landed to do the earthquake attack
+    void BossEarthQuakeHitGround()
+    {
+        attack_count++;
+        if(attack_count == 15)
+            rb.AddForce(Vector2.up * jumpForce * -1.0f, ForceMode2D.Impulse);
+        // not on ground yet
+        if(!IsGrounded() || attack_count < 4)
+            return;
+        animator.SetTrigger("AttackQuakeHit");
+        landed = true;
+        attack_time = Time.timeSinceLevelLoad + 1.5f;
+    }
+
+    // starts the boss earthquake attack
+    void BossEarthQuakeAttack()
+    {
+        animator.SetTrigger("AttackQuake");
+        Collider2D col;
+        col = Physics2D.OverlapCircle(rb.position, attackdistance, Player);
+        if(col)
+            target = col.attachedRigidbody;
+        rb.AddForce(Vector2.up * jumpForce * 1.5f, ForceMode2D.Impulse);
+        attack_count = 0;
+        move_time = Time.timeSinceLevelLoad + 0.5f;
+        landed = false;
+        attack_time = Time.timeSinceLevelLoad + 1.5f;
     }
     
     // call this function from specific frame or frames, one attack should only hit once even if it could hit on multiple frames
@@ -224,7 +299,8 @@ public class EnemyMover : MonoBehaviour
             dropheight = 4.0f;
         if(actdistance < 15f)
             actdistance = 15f;
-        attackdistance = 6.5f;
+        if(attackdistance < 6.5f)
+            attackdistance = 6.5f;
         ChangeMoveDir();
         landed = true;
     }
@@ -239,8 +315,6 @@ public class EnemyMover : MonoBehaviour
             if(Time.timeSinceLevelLoad > pain_time) {
                 if(Time.timeSinceLevelLoad < attack_time)
                     FacePlayer();
-                if(Time.timeSinceLevelLoad > attack_time - 1.0f && Time.timeSinceLevelLoad < attack_time - 0.25f)
-                    EnemyMeleeHit();
             }
             else
                 animator.ResetTrigger("Hurt");
@@ -248,8 +322,12 @@ public class EnemyMover : MonoBehaviour
             if(Time.timeSinceLevelLoad > attack_time) {
                 // check for attack
                 attack_hit = false;
-                if(FindPlayer(attackdistance) && Random.value < 0.05f && Time.timeSinceLevelLoad > attack_time + 0.25f + Random.value * 0.5f)
-                    EnemyMeleeAttack();
+                if(FindPlayer(attackdistance) && Random.value < 0.05f && Time.timeSinceLevelLoad > attack_time + 0.25f + Random.value * 0.5f) {
+                    if(rb.name == "BossKarhu" && Random.value < 0.85f)
+                        BossEarthQuakeAttack();
+                    else
+                        EnemyMeleeAttack();
+                }
                 // otherwise move
                 else {
                     MoveEnemy();
@@ -281,11 +359,11 @@ public class EnemyMover : MonoBehaviour
             return;
         // colliding with another enemy or a wall, turn away
         if(col.gameObject.tag == "Enemy" || col.gameObject.tag == "Wall") {
+            move_time = 0;
             ChangeMoveDir();
             return;
         }
         transform.Translate(move_dir * - 1 * moveSpeed * Time.deltaTime, 0, 0);
-        //col.gameObject.SendMessage("ApplyDamage", 1);
         ChangeMoveDir();
     }
 }

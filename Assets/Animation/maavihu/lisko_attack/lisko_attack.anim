@@ -87,6 +87,12 @@ AnimationClip:
       value: {fileID: 1334001632, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
     - time: 0.5833333
       value: {fileID: 1062729007, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - time: 0.6166667
+      value: {fileID: 1059035706, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - time: 0.65
+      value: {fileID: -1538025142, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - time: 0.68333334
+      value: {fileID: -2059517450, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -140,12 +146,15 @@ AnimationClip:
     - {fileID: -2130085019, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
     - {fileID: 1334001632, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
     - {fileID: 1062729007, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - {fileID: 1059035706, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - {fileID: -1538025142, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
+    - {fileID: -2059517450, guid: e10aefa39fa98704ba8b724ddbde6c9b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.59999996
+    m_StopTime: 0.7
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -164,4 +173,60 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.25
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.26666668
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.28333333
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.31666666
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.35
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.38333333
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.43333334
+    functionName: EnemyMeleeHit
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
