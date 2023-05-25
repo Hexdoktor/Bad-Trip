@@ -375,7 +375,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 16
     mipBias: 0
     wrapU: 1
@@ -513,7 +513,7 @@ TextureImporter:
       name: MysticJungle_a_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 256
         y: 576
         width: 64
         height: 64
@@ -534,7 +534,7 @@ TextureImporter:
       name: MysticJungle_a_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 320
         y: 576
         width: 64
         height: 64
@@ -555,7 +555,7 @@ TextureImporter:
       name: MysticJungle_a_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 384
         y: 576
         width: 64
         height: 64
@@ -576,7 +576,7 @@ TextureImporter:
       name: MysticJungle_a_6
       rect:
         serializedVersion: 2
-        x: 384
+        x: 512
         y: 576
         width: 64
         height: 64
@@ -597,7 +597,7 @@ TextureImporter:
       name: MysticJungle_a_7
       rect:
         serializedVersion: 2
-        x: 448
+        x: 576
         y: 576
         width: 64
         height: 64
@@ -618,7 +618,7 @@ TextureImporter:
       name: MysticJungle_a_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 704
         y: 576
         width: 64
         height: 64
@@ -639,8 +639,8 @@ TextureImporter:
       name: MysticJungle_a_9
       rect:
         serializedVersion: 2
-        x: 576
-        y: 576
+        x: 0
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -660,8 +660,8 @@ TextureImporter:
       name: MysticJungle_a_10
       rect:
         serializedVersion: 2
-        x: 640
-        y: 576
+        x: 64
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -681,8 +681,8 @@ TextureImporter:
       name: MysticJungle_a_11
       rect:
         serializedVersion: 2
-        x: 704
-        y: 576
+        x: 128
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -702,7 +702,7 @@ TextureImporter:
       name: MysticJungle_a_12
       rect:
         serializedVersion: 2
-        x: 0
+        x: 256
         y: 512
         width: 64
         height: 64
@@ -723,7 +723,7 @@ TextureImporter:
       name: MysticJungle_a_13
       rect:
         serializedVersion: 2
-        x: 64
+        x: 320
         y: 512
         width: 64
         height: 64
@@ -744,7 +744,7 @@ TextureImporter:
       name: MysticJungle_a_14
       rect:
         serializedVersion: 2
-        x: 128
+        x: 384
         y: 512
         width: 64
         height: 64
@@ -765,7 +765,7 @@ TextureImporter:
       name: MysticJungle_a_15
       rect:
         serializedVersion: 2
-        x: 192
+        x: 512
         y: 512
         width: 64
         height: 64
@@ -786,7 +786,7 @@ TextureImporter:
       name: MysticJungle_a_16
       rect:
         serializedVersion: 2
-        x: 256
+        x: 576
         y: 512
         width: 64
         height: 64
@@ -807,7 +807,7 @@ TextureImporter:
       name: MysticJungle_a_17
       rect:
         serializedVersion: 2
-        x: 320
+        x: 704
         y: 512
         width: 64
         height: 64
@@ -828,8 +828,8 @@ TextureImporter:
       name: MysticJungle_a_18
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
+        x: 0
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -849,8 +849,8 @@ TextureImporter:
       name: MysticJungle_a_19
       rect:
         serializedVersion: 2
-        x: 448
-        y: 512
+        x: 64
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -870,8 +870,8 @@ TextureImporter:
       name: MysticJungle_a_20
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
+        x: 128
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -891,8 +891,8 @@ TextureImporter:
       name: MysticJungle_a_21
       rect:
         serializedVersion: 2
-        x: 576
-        y: 512
+        x: 256
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -912,8 +912,8 @@ TextureImporter:
       name: MysticJungle_a_22
       rect:
         serializedVersion: 2
-        x: 640
-        y: 512
+        x: 320
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -933,8 +933,8 @@ TextureImporter:
       name: MysticJungle_a_23
       rect:
         serializedVersion: 2
-        x: 704
-        y: 512
+        x: 384
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -955,7 +955,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 448
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -976,7 +976,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 448
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -997,7 +997,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 448
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1017,8 +1017,8 @@ TextureImporter:
       name: MysticJungle_a_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 448
+        x: 256
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1038,8 +1038,8 @@ TextureImporter:
       name: MysticJungle_a_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 448
+        x: 320
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1059,8 +1059,8 @@ TextureImporter:
       name: MysticJungle_a_29
       rect:
         serializedVersion: 2
-        x: 320
-        y: 448
+        x: 384
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1080,8 +1080,8 @@ TextureImporter:
       name: MysticJungle_a_30
       rect:
         serializedVersion: 2
-        x: 384
-        y: 448
+        x: 512
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1101,8 +1101,8 @@ TextureImporter:
       name: MysticJungle_a_31
       rect:
         serializedVersion: 2
-        x: 512
-        y: 448
+        x: 576
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1122,8 +1122,8 @@ TextureImporter:
       name: MysticJungle_a_32
       rect:
         serializedVersion: 2
-        x: 576
-        y: 448
+        x: 640
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1144,7 +1144,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 704
-        y: 448
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1165,7 +1165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1186,7 +1186,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 384
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1207,7 +1207,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 384
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1227,8 +1227,8 @@ TextureImporter:
       name: MysticJungle_a_37
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
+        x: 256
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1248,8 +1248,8 @@ TextureImporter:
       name: MysticJungle_a_38
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
+        x: 320
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1269,8 +1269,8 @@ TextureImporter:
       name: MysticJungle_a_39
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
+        x: 384
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1290,8 +1290,8 @@ TextureImporter:
       name: MysticJungle_a_40
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
+        x: 512
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1311,8 +1311,8 @@ TextureImporter:
       name: MysticJungle_a_41
       rect:
         serializedVersion: 2
-        x: 512
-        y: 384
+        x: 576
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1332,8 +1332,8 @@ TextureImporter:
       name: MysticJungle_a_42
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
+        x: 640
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1353,8 +1353,8 @@ TextureImporter:
       name: MysticJungle_a_43
       rect:
         serializedVersion: 2
-        x: 640
-        y: 384
+        x: 704
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1374,8 +1374,8 @@ TextureImporter:
       name: MysticJungle_a_44
       rect:
         serializedVersion: 2
-        x: 704
-        y: 384
+        x: 64
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1395,8 +1395,8 @@ TextureImporter:
       name: MysticJungle_a_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 128
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1416,8 +1416,8 @@ TextureImporter:
       name: MysticJungle_a_46
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
+        x: 256
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1437,8 +1437,8 @@ TextureImporter:
       name: MysticJungle_a_47
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
+        x: 320
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1458,8 +1458,8 @@ TextureImporter:
       name: MysticJungle_a_48
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
+        x: 384
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1479,8 +1479,8 @@ TextureImporter:
       name: MysticJungle_a_49
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
+        x: 448
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1500,8 +1500,8 @@ TextureImporter:
       name: MysticJungle_a_50
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
+        x: 512
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1521,8 +1521,8 @@ TextureImporter:
       name: MysticJungle_a_51
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
+        x: 576
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1542,8 +1542,8 @@ TextureImporter:
       name: MysticJungle_a_52
       rect:
         serializedVersion: 2
-        x: 512
-        y: 320
+        x: 640
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1563,8 +1563,8 @@ TextureImporter:
       name: MysticJungle_a_53
       rect:
         serializedVersion: 2
-        x: 576
-        y: 320
+        x: 704
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1584,8 +1584,8 @@ TextureImporter:
       name: MysticJungle_a_54
       rect:
         serializedVersion: 2
-        x: 640
-        y: 320
+        x: 0
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1605,8 +1605,8 @@ TextureImporter:
       name: MysticJungle_a_55
       rect:
         serializedVersion: 2
-        x: 704
-        y: 320
+        x: 64
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1626,8 +1626,8 @@ TextureImporter:
       name: MysticJungle_a_56
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 128
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1647,8 +1647,8 @@ TextureImporter:
       name: MysticJungle_a_57
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 192
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1668,8 +1668,8 @@ TextureImporter:
       name: MysticJungle_a_58
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1689,8 +1689,8 @@ TextureImporter:
       name: MysticJungle_a_59
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 320
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1710,8 +1710,8 @@ TextureImporter:
       name: MysticJungle_a_60
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
+        x: 384
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1731,8 +1731,8 @@ TextureImporter:
       name: MysticJungle_a_61
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
+        x: 448
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1753,7 +1753,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1774,7 +1774,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 576
-        y: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1795,7 +1795,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1816,7 +1816,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 704
-        y: 256
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -1837,7 +1837,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1858,7 +1858,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1879,7 +1879,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1900,7 +1900,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -1920,8 +1920,8 @@ TextureImporter:
       name: MysticJungle_a_70
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
+        x: 64
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -1941,8 +1941,8 @@ TextureImporter:
       name: MysticJungle_a_71
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
+        x: 128
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -1962,8 +1962,8 @@ TextureImporter:
       name: MysticJungle_a_72
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
+        x: 256
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -1983,8 +1983,8 @@ TextureImporter:
       name: MysticJungle_a_73
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
+        x: 320
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2004,8 +2004,8 @@ TextureImporter:
       name: MysticJungle_a_74
       rect:
         serializedVersion: 2
-        x: 512
-        y: 192
+        x: 384
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2025,8 +2025,8 @@ TextureImporter:
       name: MysticJungle_a_75
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
+        x: 448
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2046,8 +2046,8 @@ TextureImporter:
       name: MysticJungle_a_76
       rect:
         serializedVersion: 2
-        x: 640
-        y: 192
+        x: 512
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2067,8 +2067,8 @@ TextureImporter:
       name: MysticJungle_a_77
       rect:
         serializedVersion: 2
-        x: 704
-        y: 192
+        x: 576
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2088,8 +2088,8 @@ TextureImporter:
       name: MysticJungle_a_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 640
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2109,8 +2109,8 @@ TextureImporter:
       name: MysticJungle_a_79
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 704
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2126,724 +2126,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_80
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c305410000000000800000000000000
-      internalID: 21300160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_81
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c305410000000000800000000000000
-      internalID: 21300162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_82
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c305410000000000800000000000000
-      internalID: 21300164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_83
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c305410000000000800000000000000
-      internalID: 21300166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_84
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c305410000000000800000000000000
-      internalID: 21300168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_85
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac305410000000000800000000000000
-      internalID: 21300170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_86
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc305410000000000800000000000000
-      internalID: 21300172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_87
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec305410000000000800000000000000
-      internalID: 21300174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_88
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d305410000000000800000000000000
-      internalID: 21300176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_89
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d305410000000000800000000000000
-      internalID: 21300178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_90
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d305410000000000800000000000000
-      internalID: 21300180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_91
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d305410000000000800000000000000
-      internalID: 21300182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_92
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d305410000000000800000000000000
-      internalID: 21300184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_93
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad305410000000000800000000000000
-      internalID: 21300186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_94
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd305410000000000800000000000000
-      internalID: 21300188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_95
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed305410000000000800000000000000
-      internalID: 21300190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_96
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e305410000000000800000000000000
-      internalID: 21300192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_97
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e305410000000000800000000000000
-      internalID: 21300194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_98
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e305410000000000800000000000000
-      internalID: 21300196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_99
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e305410000000000800000000000000
-      internalID: 21300198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_100
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e305410000000000800000000000000
-      internalID: 21300200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_101
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae305410000000000800000000000000
-      internalID: 21300202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_102
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce305410000000000800000000000000
-      internalID: 21300204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_103
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee305410000000000800000000000000
-      internalID: 21300206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_104
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f305410000000000800000000000000
-      internalID: 21300208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_105
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f305410000000000800000000000000
-      internalID: 21300210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_106
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f305410000000000800000000000000
-      internalID: 21300212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_107
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f305410000000000800000000000000
-      internalID: 21300214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_108
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f305410000000000800000000000000
-      internalID: 21300216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_109
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af305410000000000800000000000000
-      internalID: 21300218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_110
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf305410000000000800000000000000
-      internalID: 21300220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_111
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef305410000000000800000000000000
-      internalID: 21300222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_112
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00405410000000000800000000000000
-      internalID: 21300224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MysticJungle_a_113
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20405410000000000800000000000000
-      internalID: 21300226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7f1d5b17a57a46f40a49cd3e3f2d1a5e
     internalID: 0
     vertices: []
     indices: 
@@ -2851,120 +2137,86 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MysticJungle_a_50: 21300100
-      MysticJungle_a_105: 21300210
-      MysticJungle_a_32: 21300064
-      MysticJungle_a_56: 21300112
-      MysticJungle_a_19: 21300038
-      MysticJungle_a_8: 21300016
-      MysticJungle_a_89: 21300178
-      MysticJungle_a_99: 21300198
-      MysticJungle_a_61: 21300122
+      MysticJungle_a_0: 21300000
+      MysticJungle_a_1: 21300002
+      MysticJungle_a_10: 21300020
+      MysticJungle_a_11: 21300022
+      MysticJungle_a_12: 21300024
+      MysticJungle_a_13: 21300026
+      MysticJungle_a_14: 21300028
+      MysticJungle_a_15: 21300030
       MysticJungle_a_16: 21300032
+      MysticJungle_a_17: 21300034
+      MysticJungle_a_18: 21300036
+      MysticJungle_a_19: 21300038
+      MysticJungle_a_2: 21300004
+      MysticJungle_a_20: 21300040
+      MysticJungle_a_21: 21300042
+      MysticJungle_a_22: 21300044
+      MysticJungle_a_23: 21300046
+      MysticJungle_a_24: 21300048
+      MysticJungle_a_25: 21300050
+      MysticJungle_a_26: 21300052
+      MysticJungle_a_27: 21300054
+      MysticJungle_a_28: 21300056
+      MysticJungle_a_29: 21300058
+      MysticJungle_a_3: 21300006
+      MysticJungle_a_30: 21300060
+      MysticJungle_a_31: 21300062
+      MysticJungle_a_32: 21300064
+      MysticJungle_a_33: 21300066
+      MysticJungle_a_34: 21300068
+      MysticJungle_a_35: 21300070
+      MysticJungle_a_36: 21300072
+      MysticJungle_a_37: 21300074
+      MysticJungle_a_38: 21300076
+      MysticJungle_a_39: 21300078
+      MysticJungle_a_4: 21300008
+      MysticJungle_a_40: 21300080
+      MysticJungle_a_41: 21300082
+      MysticJungle_a_42: 21300084
+      MysticJungle_a_43: 21300086
+      MysticJungle_a_44: 21300088
+      MysticJungle_a_45: 21300090
+      MysticJungle_a_46: 21300092
+      MysticJungle_a_47: 21300094
+      MysticJungle_a_48: 21300096
+      MysticJungle_a_49: 21300098
+      MysticJungle_a_5: 21300010
+      MysticJungle_a_50: 21300100
+      MysticJungle_a_51: 21300102
+      MysticJungle_a_52: 21300104
+      MysticJungle_a_53: 21300106
+      MysticJungle_a_54: 21300108
+      MysticJungle_a_55: 21300110
+      MysticJungle_a_56: 21300112
+      MysticJungle_a_57: 21300114
+      MysticJungle_a_58: 21300116
+      MysticJungle_a_59: 21300118
+      MysticJungle_a_6: 21300012
+      MysticJungle_a_60: 21300120
+      MysticJungle_a_61: 21300122
+      MysticJungle_a_62: 21300124
       MysticJungle_a_63: 21300126
       MysticJungle_a_64: 21300128
-      MysticJungle_a_26: 21300052
-      MysticJungle_a_73: 21300146
-      MysticJungle_a_106: 21300212
-      MysticJungle_a_57: 21300114
       MysticJungle_a_65: 21300130
-      MysticJungle_a_23: 21300046
-      MysticJungle_a_88: 21300176
-      MysticJungle_a_21: 21300042
-      MysticJungle_a_109: 21300218
-      MysticJungle_a_3: 21300006
-      MysticJungle_a_79: 21300158
-      MysticJungle_a_34: 21300068
-      MysticJungle_a_87: 21300174
-      MysticJungle_a_80: 21300160
-      MysticJungle_a_36: 21300072
-      MysticJungle_a_101: 21300202
-      MysticJungle_a_84: 21300168
-      MysticJungle_a_7: 21300014
-      MysticJungle_a_4: 21300008
-      MysticJungle_a_102: 21300204
-      MysticJungle_a_68: 21300136
-      MysticJungle_a_108: 21300216
-      MysticJungle_a_110: 21300220
       MysticJungle_a_66: 21300132
-      MysticJungle_a_28: 21300056
-      MysticJungle_a_45: 21300090
-      MysticJungle_a_15: 21300030
-      MysticJungle_a_0: 21300000
-      MysticJungle_a_5: 21300010
-      MysticJungle_a_97: 21300194
-      MysticJungle_a_95: 21300190
-      MysticJungle_a_96: 21300192
-      MysticJungle_a_37: 21300074
-      MysticJungle_a_13: 21300026
-      MysticJungle_a_113: 21300226
-      MysticJungle_a_24: 21300048
-      MysticJungle_a_33: 21300066
-      MysticJungle_a_94: 21300188
-      MysticJungle_a_1: 21300002
-      MysticJungle_a_71: 21300142
-      MysticJungle_a_22: 21300044
-      MysticJungle_a_49: 21300098
-      MysticJungle_a_59: 21300118
-      MysticJungle_a_38: 21300076
-      MysticJungle_a_103: 21300206
-      MysticJungle_a_2: 21300004
-      MysticJungle_a_14: 21300028
-      MysticJungle_a_11: 21300022
-      MysticJungle_a_77: 21300154
-      MysticJungle_a_70: 21300140
-      MysticJungle_a_98: 21300196
-      MysticJungle_a_92: 21300184
-      MysticJungle_a_31: 21300062
-      MysticJungle_a_40: 21300080
-      MysticJungle_a_60: 21300120
-      MysticJungle_a_53: 21300106
-      MysticJungle_a_55: 21300110
       MysticJungle_a_67: 21300134
-      MysticJungle_a_62: 21300124
+      MysticJungle_a_68: 21300136
       MysticJungle_a_69: 21300138
-      MysticJungle_a_75: 21300150
-      MysticJungle_a_39: 21300078
-      MysticJungle_a_76: 21300152
-      MysticJungle_a_81: 21300162
-      MysticJungle_a_29: 21300058
-      MysticJungle_a_43: 21300086
-      MysticJungle_a_41: 21300082
-      MysticJungle_a_46: 21300092
-      MysticJungle_a_107: 21300214
-      MysticJungle_a_17: 21300034
-      MysticJungle_a_47: 21300094
-      MysticJungle_a_25: 21300050
-      MysticJungle_a_18: 21300036
-      MysticJungle_a_52: 21300104
-      MysticJungle_a_86: 21300172
-      MysticJungle_a_27: 21300054
-      MysticJungle_a_100: 21300200
-      MysticJungle_a_58: 21300116
+      MysticJungle_a_7: 21300014
+      MysticJungle_a_70: 21300140
+      MysticJungle_a_71: 21300142
       MysticJungle_a_72: 21300144
-      MysticJungle_a_48: 21300096
-      MysticJungle_a_20: 21300040
-      MysticJungle_a_30: 21300060
-      MysticJungle_a_111: 21300222
-      MysticJungle_a_10: 21300020
-      MysticJungle_a_9: 21300018
-      MysticJungle_a_90: 21300180
-      MysticJungle_a_35: 21300070
-      MysticJungle_a_12: 21300024
-      MysticJungle_a_6: 21300012
-      MysticJungle_a_112: 21300224
-      MysticJungle_a_91: 21300182
-      MysticJungle_a_83: 21300166
-      MysticJungle_a_44: 21300088
-      MysticJungle_a_54: 21300108
-      MysticJungle_a_85: 21300170
-      MysticJungle_a_42: 21300084
-      MysticJungle_a_82: 21300164
-      MysticJungle_a_51: 21300102
+      MysticJungle_a_73: 21300146
       MysticJungle_a_74: 21300148
-      MysticJungle_a_104: 21300208
+      MysticJungle_a_75: 21300150
+      MysticJungle_a_76: 21300152
+      MysticJungle_a_77: 21300154
       MysticJungle_a_78: 21300156
-      MysticJungle_a_93: 21300186
+      MysticJungle_a_79: 21300158
+      MysticJungle_a_8: 21300016
+      MysticJungle_a_9: 21300018
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
