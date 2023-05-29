@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Wall
   - Missile
+  - BAckground
+  - Horisontti
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Player
   - Enemies
   - Missiles
-  - 
-  - 
+  - Horisontti
+  - Background
   - 
   - 
   - 
