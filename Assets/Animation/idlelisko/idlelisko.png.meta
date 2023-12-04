@@ -850,41 +850,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idlelisko_26: 679659764
-      idlelisko_16: 97904791
-      idlelisko_23: 1065457881
-      idlelisko_4: 248556919
-      idlelisko_7: -655008718
-      idlelisko_8: 1843224953
-      idlelisko_24: 2089547430
-      idlelisko_27: 232357771
-      idlelisko_6: -990986366
-      idlelisko_20: -573777013
       idlelisko_0: -1370162333
-      idlelisko_3: 247947553
-      idlelisko_19: -871741328
-      idlelisko_32: -2133977211
-      idlelisko_25: 2104906823
-      idlelisko_5: 1682690644
-      idlelisko_18: -37240555
       idlelisko_1: 1923057629
-      idlelisko_2: 1913649985
       idlelisko_10: 1442696309
-      idlelisko_17: -664192780
-      idlelisko_14: -32790041
-      idlelisko_22: 1283618369
-      idlelisko_30: -1571850818
-      idlelisko_29: -999010185
       idlelisko_11: -558288240
-      idlelisko_21: 687551782
-      idlelisko_28: 741183597
-      idlelisko_15: -231077643
       idlelisko_12: -1485292435
       idlelisko_13: 523479734
-      idlelisko_9: -366351157
+      idlelisko_14: -32790041
+      idlelisko_15: -231077643
+      idlelisko_16: 97904791
+      idlelisko_17: -664192780
+      idlelisko_18: -37240555
+      idlelisko_19: -871741328
+      idlelisko_2: 1913649985
+      idlelisko_20: -573777013
+      idlelisko_21: 687551782
+      idlelisko_22: 1283618369
+      idlelisko_23: 1065457881
+      idlelisko_24: 2089547430
+      idlelisko_25: 2104906823
+      idlelisko_26: 679659764
+      idlelisko_27: 232357771
+      idlelisko_28: 741183597
+      idlelisko_29: -999010185
+      idlelisko_3: 247947553
+      idlelisko_30: -1571850818
       idlelisko_31: 1184814164
+      idlelisko_32: -2133977211
       idlelisko_33: 1961517463
       idlelisko_34: -1522149137
+      idlelisko_4: 248556919
+      idlelisko_5: 1682690644
+      idlelisko_6: -990986366
+      idlelisko_7: -655008718
+      idlelisko_8: 1843224953
+      idlelisko_9: -366351157
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
