@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering.LookDev;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,8 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private int jumpsPerformed = 0;
 
     float horizontalMove = 0f;
-    bool jump = false;
+    public bool jump = false;
     bool crouch = false;
+
+    [SerializeField] MilasMovementScript milaScript;
     
     
 
@@ -24,23 +29,25 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        
-        if (Input.GetButtonDown("Jump"))
-        {
-            if(jumpsPerformed < maxJumps)
-            {
-                jump = true;
-                animator.SetBool("IsJumping", true);
-                FindObjectOfType<AudioManager>().Play("Jumping");
-                jumpsPerformed++;
-                
-                if(jumpsPerformed == 2)
-                {
-                    animator.SetTrigger("DoubleJump");
-                }
+        //MilasMovementScript.milasMovementScript.OnMovementPerformed();
 
-            }
-        }
+        
+        //if (InputAction.CallbackContext context)
+        //{
+        //    if(jumpsPerformed < maxJumps)
+        //    {
+        //        jump = true;
+        //        animator.SetBool("IsJumping", true);
+        //        FindObjectOfType<AudioManager>().Play("Jumping");
+        //        jumpsPerformed++;
+                
+        //        if(jumpsPerformed == 2)
+        //        {
+        //            animator.SetTrigger("DoubleJump");
+        //        }
+
+        //    }
+        //}
    
         if (Input.GetButtonDown("Crouch"))
         {
@@ -55,6 +62,28 @@ public class PlayerMovement : MonoBehaviour
         }
     }
             
+
+    public void OnJump()
+    {
+        Debug.Log("test");
+
+        if (jumpsPerformed < maxJumps)
+        {
+            jump = true;
+            animator.SetBool("IsJumping", true);
+            FindObjectOfType<AudioManager>().Play("Jumping");
+            jumpsPerformed++;
+
+            if (jumpsPerformed == 2)
+            {
+                animator.SetTrigger("DoubleJump");
+            }
+
+        }
+
+    }
+
+
     public void OnLanding()
     {
         animator.SetBool("IsJumping", false);
@@ -69,7 +98,9 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
+        controller.m_Rigidbody2D.velocity = milaScript.moveVector * milaScript.moveSpeed;
+
+       //jump = false;
     }
 }
 
