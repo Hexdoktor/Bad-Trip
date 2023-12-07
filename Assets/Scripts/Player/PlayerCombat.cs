@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -21,16 +22,24 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= nextAttackTime)
-        {
-            if (Input.GetKeyDown(KeyCode.LeftShift))
-            {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;         
-            }
-        }
+        //if (Time.time >= nextAttackTime)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.LeftShift))
+        //    {
+        //        Attack();
+        //        nextAttackTime = Time.time + 1f / attackRate;         
+        //    }
+        //}
         
 
+    }
+    public void AttackInput(InputAction.CallbackContext context)
+    {
+        if (context.performed && Time.time >= nextAttackTime)
+        {
+            Attack();
+            nextAttackTime = Time.time + 1f / attackRate;
+        }
     }
 
     void Attack()

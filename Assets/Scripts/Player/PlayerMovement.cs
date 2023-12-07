@@ -14,24 +14,25 @@ public class PlayerMovement : MonoBehaviour
     public int maxJumps = 2;
     private int jumpsPerformed = 0;
 
-    float horizontalMove = 0f;
+    public float horizontalMove = 0f;
     public bool jump = false;
     bool crouch = false;
 
     [SerializeField] MilasMovementScript milaScript;
-    
-    
+
+
 
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         //MilasMovementScript.milasMovementScript.OnMovementPerformed();
 
-        
+
         //if (InputAction.CallbackContext context)
         //{
         //    if(jumpsPerformed < maxJumps)
@@ -40,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         //        animator.SetBool("IsJumping", true);
         //        FindObjectOfType<AudioManager>().Play("Jumping");
         //        jumpsPerformed++;
-                
+
         //        if(jumpsPerformed == 2)
         //        {
         //            animator.SetTrigger("DoubleJump");
@@ -48,61 +49,81 @@ public class PlayerMovement : MonoBehaviour
 
         //    }
         //}
-   
-        if (Input.GetButtonDown("Crouch"))
+
+        //if (Input.GetButtonDown("Crouch"))
+        //{
+        //    crouch = true;
+        //    animator.SetBool("IsCrouching", true);
+        //} else if (Input.GetButtonUp("Crouch"))
+
+        //{
+        //    crouch = false;
+        //    animator.SetBool("IsCrouching", false);
+
+        //}
+    }
+    public void Crouch(InputAction.CallbackContext context)
+    {
+        if (context.performed)
         {
             crouch = true;
             animator.SetBool("IsCrouching", true);
-        } else if (Input.GetButtonUp("Crouch"))
-        
-        {
-            crouch = false;
-            animator.SetBool("IsCrouching", false);
-        
         }
-    }
-            
-
-    public void OnJump()
-    {
-        Debug.Log("test");
-
-        if (jumpsPerformed < maxJumps)
-        {
-            jump = true;
-            animator.SetBool("IsJumping", true);
-            FindObjectOfType<AudioManager>().Play("Jumping");
-            jumpsPerformed++;
-
-            if (jumpsPerformed == 2)
+        else
             {
-                animator.SetTrigger("DoubleJump");
+                crouch = false;
+                animator.SetBool("IsCrouching", false);
+
             }
 
+        
+    }
+
+        public void Jump(InputAction.CallbackContext context)
+        {
+            Debug.Log("Jumped: " + context.phase);
+
+            if (context.performed)
+            {
+                if (jumpsPerformed < maxJumps)
+                {
+                    Debug.Log("legit jumped");
+                    jump = true;
+                    animator.SetBool("IsJumping", true);
+                    FindObjectOfType<AudioManager>().Play("Jumping");
+                    jumpsPerformed++;
+
+                    if (jumpsPerformed == 2)
+                    {
+                        animator.SetTrigger("DoubleJump");
+                    }
+
+                }
+            }
+
+
         }
 
+
+        public void OnLanding()
+        {
+            animator.SetBool("IsJumping", false);
+            jumpsPerformed = 0;
+            FindObjectOfType<AudioManager>().Play("Landing");
+
+
+        }
+
+
+
+        void FixedUpdate()
+        {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+            // controller.m_Rigidbody2D.velocity = milaScript.moveVector * milaScript.moveSpeed;
+
+            jump = false;
+        }
     }
-
-
-    public void OnLanding()
-    {
-        animator.SetBool("IsJumping", false);
-        jumpsPerformed = 0;
-        FindObjectOfType<AudioManager>().Play("Landing");
-       
-  
-    }
-        
-
-
-    void FixedUpdate()
-    {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        controller.m_Rigidbody2D.velocity = milaScript.moveVector * milaScript.moveSpeed;
-
-       //jump = false;
-    }
-}
 
 
 
