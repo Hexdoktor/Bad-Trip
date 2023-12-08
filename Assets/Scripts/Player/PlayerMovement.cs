@@ -81,13 +81,13 @@ public class PlayerMovement : MonoBehaviour
 
         public void Jump(InputAction.CallbackContext context)
         {
-            Debug.Log("Jumped: " + context.phase);
+        
 
             if (context.performed)
             {
                 if (jumpsPerformed < maxJumps)
                 {
-                    Debug.Log("legit jumped");
+               
                     jump = true;
                     animator.SetBool("IsJumping", true);
                     FindObjectOfType<AudioManager>().Play("Jumping");
@@ -119,7 +119,6 @@ public class PlayerMovement : MonoBehaviour
         void FixedUpdate()
         {
             controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-            // controller.m_Rigidbody2D.velocity = milaScript.moveVector * milaScript.moveSpeed;
 
             jump = false;
         }
