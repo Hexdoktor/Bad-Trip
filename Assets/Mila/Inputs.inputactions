@@ -15,6 +15,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "PauseMenu",
+                    "type": "Button",
+                    "id": "c4f3ac91-34da-4f24-9ab6-6e77b11720be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Movement",
                     "type": "Value",
                     "id": "833e3f5c-39fd-4ab6-98fa-5fecb3adee47",
@@ -243,6 +252,17 @@
                 },
                 {
                     "name": "",
+                    "id": "88dee68a-548f-4c09-b3da-88c9343445de",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4299d1c0-af2a-4139-b696-4b67eb0b5e19",
                     "path": "<Keyboard>/shift",
                     "interactions": "",
@@ -260,6 +280,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c145d6c5-36a4-4df9-9df5-f4ac19eacfde",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e65a0a6f-a415-4aa3-b926-ad6d549d52e1",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

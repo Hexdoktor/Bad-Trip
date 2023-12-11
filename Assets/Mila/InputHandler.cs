@@ -4,7 +4,7 @@ using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class MilasMovementScript : MonoBehaviour
+public class InputHandler : MonoBehaviour
 {
     public Inputs input = null;
     public Vector2 moveVector = Vector2.zero;
@@ -22,7 +22,8 @@ public class MilasMovementScript : MonoBehaviour
     {
         
         input = new Inputs();
-   
+
+  
     }
    
     private void OnEnable()
