@@ -1,15 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
 {
     public GameObject gameOverUI;
+    public GameObject gamePausedUI;
+  
+    bool gamePaused;
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -17,7 +20,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameOverUI.activeInHierarchy)
+        if (gameOverUI.activeInHierarchy || gamePausedUI.activeInHierarchy)
         {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
@@ -27,6 +30,8 @@ public class GameManager : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
+
+    
     }
 
     public void gameOver()
@@ -47,6 +52,35 @@ public class GameManager : MonoBehaviour
     public void quit()
     {
         Application.Quit();
+    }
+    public void Resume()
+    {
+        gamePaused = false;
+        gamePausedUI.SetActive(false);
+        Time.timeScale = 1f;
+    }
+    public void ResumeWithInput(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            if (!gamePaused)
+            {
+               
+                gamePaused = true;
+                gamePausedUI.SetActive(true);
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                gamePaused = false;
+                gamePausedUI.SetActive(false);
+                Time.timeScale = 1f;
+            }
+
+        }
+       
     }
 }
 

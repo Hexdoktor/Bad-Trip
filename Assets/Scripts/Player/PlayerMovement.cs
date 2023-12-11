@@ -18,9 +18,6 @@ public class PlayerMovement : MonoBehaviour
     public bool jump = false;
     bool crouch = false;
 
-    [SerializeField] MilasMovementScript milaScript;
-
-
 
     // Update is called once per frame
     void Update()
@@ -79,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-        public void Jump(InputAction.CallbackContext context)
+    public void Jump(InputAction.CallbackContext context)
         {
         
 
