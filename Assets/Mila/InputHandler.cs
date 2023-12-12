@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -12,20 +13,50 @@ public class InputHandler : MonoBehaviour
 
     public bool jump;
     public bool jumpReleased;
+    private bool wasKeyboardPressed = false;
+    private bool wasControllerPressed = false;
 
     public float jumpForce = 10f;
 
+    [SerializeField] GameObject gamepadControls;
+    [SerializeField] GameObject keyboardControls;
+
     [SerializeField] PlayerMovement playerMovement;
 
+   // var isKeyboard;
 
     private void Awake()
     {
         
-        input = new Inputs();
+        input = new Inputs(); 
 
-  
     }
-   
+
+
+    private void Update()
+    {
+        var keyboardPressed = Keyboard.current.wasUpdatedThisFrame && Keyboard.current.anyKey.isPressed;
+        var controllerPressed = Gamepad.current.wasUpdatedThisFrame && Gamepad.current.allControls.Any(control => control.IsPressed());
+
+        if (keyboardPressed && !wasKeyboardPressed)
+        {
+           
+            wasKeyboardPressed = true;
+            wasControllerPressed = false;
+            gamepadControls.SetActive(false);
+            keyboardControls.SetActive(true);
+        }
+        else if (controllerPressed && !wasControllerPressed)
+        {
+     
+            wasControllerPressed = true;
+            wasKeyboardPressed = false;
+            gamepadControls.SetActive(true);   
+            keyboardControls.SetActive(false);
+        }
+      
+    }
+
     private void OnEnable()
     {
         input.Enable();
