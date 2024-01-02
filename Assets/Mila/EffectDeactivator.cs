@@ -9,6 +9,7 @@ public class EffectDeactivator : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Turns the effects and lights on/off depending where player is
         if (collision.CompareTag("Player"))
         {
             effectsToActivate.SetActive(true);
