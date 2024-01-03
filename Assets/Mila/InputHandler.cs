@@ -22,7 +22,7 @@ public class InputHandler : MonoBehaviour
     private void Update()
     {
         //Checks whether the player is using a keyboard or controller
-        if (Gamepad.current.allControls.Any(control => control.IsPressed()))
+        if (Gamepad.current != null && Gamepad.current.allControls.Any(control => control.IsPressed()))
         {       
             gamepadControls.SetActive(true);
             keyboardControls.SetActive(false);

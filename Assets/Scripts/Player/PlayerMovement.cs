@@ -72,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
                 animator.SetBool("IsCrouching", false);
 
             }
-
         
     }
 
@@ -98,7 +97,6 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-
         }
 
 
@@ -110,8 +108,6 @@ public class PlayerMovement : MonoBehaviour
 
 
         }
-
-
 
         void FixedUpdate()
         {
