@@ -71,6 +71,15 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Glide"",
+                    ""type"": ""Button"",
+                    ""id"": ""7477a57a-fae4-4577-a8bf-8a5ef2ebbf65"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -326,6 +335,28 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
                     ""action"": ""PauseMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""346db112-8d60-407f-980c-74706735c6b3"",
+                    ""path"": ""<Keyboard>/leftAlt"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Glide"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""868c8b66-4236-4d88-98e7-bf6d88c7bba5"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Glide"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -339,6 +370,7 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+        m_Player_Glide = m_Player.FindAction("Glide", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -405,6 +437,7 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Crouch;
     private readonly InputAction m_Player_Attack;
+    private readonly InputAction m_Player_Glide;
     public struct PlayerActions
     {
         private @Inputs m_Wrapper;
@@ -414,6 +447,7 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
         public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
+        public InputAction @Glide => m_Wrapper.m_Player_Glide;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -438,6 +472,9 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
             @Attack.started += instance.OnAttack;
             @Attack.performed += instance.OnAttack;
             @Attack.canceled += instance.OnAttack;
+            @Glide.started += instance.OnGlide;
+            @Glide.performed += instance.OnGlide;
+            @Glide.canceled += instance.OnGlide;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -457,6 +494,9 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
             @Attack.started -= instance.OnAttack;
             @Attack.performed -= instance.OnAttack;
             @Attack.canceled -= instance.OnAttack;
+            @Glide.started -= instance.OnGlide;
+            @Glide.performed -= instance.OnGlide;
+            @Glide.canceled -= instance.OnGlide;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -481,5 +521,6 @@ public partial class @Inputs: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnCrouch(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
+        void OnGlide(InputAction.CallbackContext context);
     }
 }
