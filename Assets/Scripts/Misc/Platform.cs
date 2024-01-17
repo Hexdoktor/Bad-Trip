@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using TMPro;
 
 public class Platform : MonoBehaviour
 {
@@ -18,6 +20,12 @@ public class Platform : MonoBehaviour
     private float moveTime;
     private float delay;
     private Collider2D plat;
+
+    [SerializeField] GameObject interactCanvas;
+    [SerializeField] TMP_Text interactText;
+    bool interactable;
+    bool movePlatform;
+    [SerializeField] InputHandler inputHandlerScript;
 
     void ChangeMoveDir()
     {
@@ -37,8 +45,8 @@ public class Platform : MonoBehaviour
     void MovePlatform()
     {
         // waiting at the destination
-        if(Time.timeSinceLevelLoad < delay)
-            return;
+        //if(Time.timeSinceLevelLoad < delay)
+        //    return;
 
         // calculate moving from the current position to the destination
         moveLength = Vector3.Distance(plat.transform.position, destination);
@@ -49,6 +57,7 @@ public class Platform : MonoBehaviour
         if(moveTime < 0.01f) {
             speed = new Vector3(0, 0, 0);
             transform.position = destination;
+            movePlatform = false;
             if(move_dir == 1)
                 destination = spawnorigin;
             else
@@ -58,6 +67,7 @@ public class Platform : MonoBehaviour
         }
         // still moving toward the destination
         else
+            interactCanvas.SetActive(false);
             transform.Translate(speed.x * Time.deltaTime, speed.y * Time.deltaTime, 0);
     }
 
@@ -76,7 +86,12 @@ public class Platform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovePlatform();
+        CheckForInput();
+       
+        if (movePlatform)
+        {
+            MovePlatform();
+        } 
     }
 
     // move the player or enemies on the platform
@@ -85,5 +100,44 @@ public class Platform : MonoBehaviour
         if(col.gameObject.tag == "Enemy" || col.gameObject.tag == "Player") {
             col.gameObject.transform.Translate(speed.x * Time.deltaTime, 0, 0);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            interactCanvas.SetActive(true);
+            interactable = true;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            interactCanvas.SetActive(false);
+            interactable = false;
+        }
+    }
+
+    public void InteractWithElevator(InputAction.CallbackContext context)
+    {
+        if (context.performed && interactable)
+        {
+            movePlatform = true;
+        }
+    }
+
+    //Changes the interaction text based on what the player is playing with
+    void CheckForInput()
+    {
+        if (inputHandlerScript.keyboardActive)
+        {
+            interactText.text = "[E] Interact";
+        }
+        else
+        {
+            interactText.text = "[Y] Interact";
+        }
+
     }
 }

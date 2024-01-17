@@ -7,6 +7,8 @@ public class InputHandler : MonoBehaviour
     public Inputs input = null;
     public Vector2 moveVector = Vector2.zero;
 
+    public bool keyboardActive;
+
     [SerializeField] GameObject gamepadControls;
     [SerializeField] GameObject keyboardControls;
     [SerializeField] PlayerMovement playerMovement;
@@ -26,12 +28,14 @@ public class InputHandler : MonoBehaviour
         {       
             gamepadControls.SetActive(true);
             keyboardControls.SetActive(false);
+            keyboardActive = false;
 
         }
         else if (Keyboard.current.wasUpdatedThisFrame && Keyboard.current.anyKey.isPressed)
         {    
             gamepadControls.SetActive(false);
             keyboardControls.SetActive(true);
+            keyboardActive = true;
 
         }
 

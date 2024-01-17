@@ -19,9 +19,11 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
     public bool glide;
 
+    [Header("Gliding")]
+
     [SerializeField] Rigidbody2D rb;
     float initialGravity = 5.5f;
-    float glidingSpeed = 1;
+    [SerializeField] float glidingSpeed;
     [SerializeField] float fallingSpeedGlide;
     bool endGlide;
   
@@ -41,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsGliding", true);  
             animator.SetBool("IsJumping", false);
             endGlide = false;
-           
+            runSpeed = 50;
+
         }         
         else 
         {
@@ -50,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
                 endGlide = true;
                 animator.Play("mancoon_flying", 0, 0.66f);
             }
+            runSpeed = 65;
             rb.gravityScale = initialGravity;
             animator.SetBool("IsGliding", false);
            
@@ -62,10 +66,12 @@ public class PlayerMovement : MonoBehaviour
         {
         
             animator.Play("mancoon_flying", 0, 0.23f);
+          
         }
         else
         {
             animator.Play("mancoon_flying", 0, 0.66f);
+            
         }
       
     }
