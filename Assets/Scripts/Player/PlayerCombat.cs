@@ -16,6 +16,8 @@ public class PlayerCombat : MonoBehaviour
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
+
+    [SerializeField] PlayerMovement playerMovementScript;
     
     
     
@@ -44,7 +46,15 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        if (playerMovementScript.crouch)
+        {
+            animator.SetTrigger("CrouchHit");
+        }
+        else
+        {
+            animator.SetTrigger("Attack");
+        }
+       
         FindObjectOfType<AudioManager>().Play("StickSwing");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);

@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-    
+
+    [SerializeField] Animator animator;
+    [SerializeField] PlayerInput playerInput;
+    [SerializeField] PlayerMovement playerMovementScript;
+    [SerializeField] CircleCollider2D circleCollider;
+
     public HealthBar healthBar;
 
     private bool isDead;
@@ -35,12 +41,28 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0 && !isDead)
 
         {
-            isDead = true;
 
-            FindObjectOfType<AudioManager>().Play("PlayerDeath");
-
-            gameObject.SetActive(false);
-            gameManager.gameOver();
+            StartCoroutine(EndGame());
+      
         }
     }
+
+    IEnumerator EndGame()
+    {
+        isDead = true;
+        playerInput.enabled = false;
+        playerMovementScript.enabled = false;
+        circleCollider.sharedMaterial = null;
+        animator.SetTrigger("Death");
+        FindObjectOfType<AudioManager>().Play("PlayerDeath");
+
+        yield return new WaitForSeconds(3);
+
+     
+        gameObject.SetActive(false);
+        animator.enabled = false;
+        gameManager.gameOver();
+    }
+
+       
 }

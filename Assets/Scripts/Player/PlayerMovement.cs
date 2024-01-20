@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+
 //using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -16,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float horizontalMove = 0f;
     public bool jump = false;
-    bool crouch = false;
+    public bool crouch = false;
     public bool glide;
 
     [Header("Gliding")]
@@ -26,7 +28,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float glidingSpeed;
     [SerializeField] float fallingSpeedGlide;
     bool endGlide;
-  
+
+    [SerializeField] PlayerHealth healthScript;
+    
 
     // Update is called once per frame
     void Update()
@@ -34,6 +38,11 @@ public class PlayerMovement : MonoBehaviour
         // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+        if (rb.velocity.y <= -50)
+        {
+            controller.fallDamage = rb.velocity.y;
+        }
 
 
         if (glide) 
@@ -44,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsJumping", false);
             endGlide = false;
             runSpeed = 50;
+            controller.fallDamage = 0;
 
         }         
         else 
@@ -51,11 +61,12 @@ public class PlayerMovement : MonoBehaviour
             if (!endGlide)
             {
                 endGlide = true;
-                animator.Play("mancoon_flying", 0, 0.66f);
+              
+                animator.SetBool("IsGliding", false);
             }
             runSpeed = 65;
             rb.gravityScale = initialGravity;
-            animator.SetBool("IsGliding", false);
+           
            
         }
     }
@@ -65,12 +76,12 @@ public class PlayerMovement : MonoBehaviour
         if (glide)
         {
         
-            animator.Play("mancoon_flying", 0, 0.23f);
+            animator.Play("fly", 0, 0.23f);
           
         }
         else
         {
-            animator.Play("mancoon_flying", 0, 0.66f);
+            animator.Play("fly", 0, 0.66f);
             
         }
       
@@ -79,10 +90,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (glide && context.performed)
         {
+            
             glide = false;
-            animator.Play("mancoon_flying", 0, 0.66f);
+         //   animator.Play("mancoon_flying", 0, 0.66f);
             rb.gravityScale = initialGravity;
-            animator.SetBool("IsGliding", false);
+           // animator.SetBool("IsGliding", false);
 
         }
         else if (rb.velocity.y <= 7 && context.performed && !controller.m_Grounded)
@@ -136,6 +148,8 @@ public class PlayerMovement : MonoBehaviour
 
         public void OnLanding()
         {
+
+       
             glide = false;
             animator.SetBool("IsJumping", false);
             jumpsPerformed = 0;
