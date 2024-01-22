@@ -182,6 +182,7 @@ public class EnemyMover : MonoBehaviour
     // starts the boss earthquake attack
     void BossEarthQuakeAttack()
     {
+        Debug.Log("Jump one");
         animator.SetTrigger("AttackQuake");
         Collider2D col;
         col = Physics2D.OverlapCircle(rb.position, attackdistance, Player);
@@ -222,6 +223,7 @@ public class EnemyMover : MonoBehaviour
     // starts the attack
     void EnemyMeleeAttack()
     {
+        Debug.Log("normal hit");
         animator.SetTrigger("Attack");
         Collider2D col;
         col = Physics2D.OverlapCircle(rb.position, attackdistance, Player);
@@ -229,7 +231,17 @@ public class EnemyMover : MonoBehaviour
             target = col.attachedRigidbody;
         attack_time = Time.timeSinceLevelLoad + 1.5f;
     }
-    
+
+    void EnemyBodyslamAttack()
+    {
+        Debug.Log("bodyslam");
+        animator.SetTrigger("Attack2");
+        Collider2D col;
+        col = Physics2D.OverlapCircle(rb.position, attackdistance, Player);
+        if (col)
+            target = col.attachedRigidbody;
+        attack_time = Time.timeSinceLevelLoad + 1.5f;
+    }
     // try to find the player at the specified distance
     bool FindPlayer(float dist)
     {
@@ -305,7 +317,7 @@ public class EnemyMover : MonoBehaviour
         landed = true;
     }
 
-
+    int randomIndex;
     void Update()
     {
         // the enemy is active
@@ -323,10 +335,20 @@ public class EnemyMover : MonoBehaviour
                 // check for attack
                 attack_hit = false;
                 if(FindPlayer(attackdistance) && Random.value < 0.05f && Time.timeSinceLevelLoad > attack_time + 0.25f + Random.value * 0.5f) {
-                    if(rb.name == "BossKarhu" && Random.value < 0.85f)
-                        BossEarthQuakeAttack();
+                    if (rb.name == "BossKarhu" && Random.value < 0.85f)
+                 
+                    BossEarthQuakeAttack();
                     else
+                        randomIndex = Random.Range(0, 2);
+                        if (randomIndex == 1)
+                    {
                         EnemyMeleeAttack();
+                    }
+                        else
+                    {
+                        EnemyBodyslamAttack();
+                    }
+                     
                 }
                 // otherwise move
                 else {

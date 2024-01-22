@@ -187,6 +187,8 @@ MonoBehaviour:
   m_Grounded: 0
   m_Rigidbody2D: {fileID: 8759204382300952486}
   m_JumpsLeft: 1
+  fallDamage: 0
+  playerHealthScript: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -223,10 +225,12 @@ MonoBehaviour:
   maxJumps: 2
   horizontalMove: 0
   jump: 0
+  crouch: 0
   glide: 0
   rb: {fileID: 8759204382300952486}
   glidingSpeed: 0
   fallingSpeedGlide: 25
+  healthScript: {fileID: 0}
 --- !u!114 &8759204382300952491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,6 +245,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  animator: {fileID: 0}
+  playerInput: {fileID: 0}
+  playerMovementScript: {fileID: 0}
+  circleCollider: {fileID: 0}
   healthBar: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &8759204382300952488
@@ -263,6 +271,7 @@ MonoBehaviour:
   attackRange: 2
   attackDamage: 40
   attackRate: 1.5
+  playerMovementScript: {fileID: 0}
 --- !u!95 &8759204382300952489
 Animator:
   serializedVersion: 5
