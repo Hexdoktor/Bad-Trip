@@ -317,7 +317,7 @@ public class EnemyMover : MonoBehaviour
         landed = true;
     }
 
-    int randomIndex;
+    //int randomIndex;
     void Update()
     {
         // the enemy is active
@@ -339,15 +339,15 @@ public class EnemyMover : MonoBehaviour
                  
                     BossEarthQuakeAttack();
                     else
-                        randomIndex = Random.Range(0, 2);
-                        if (randomIndex == 1)
-                    {
+                    //    randomIndex = Random.Range(0, 2);
+                    //    if (randomIndex == 1)
+                    //{
                         EnemyMeleeAttack();
-                    }
-                        else
-                    {
-                        EnemyBodyslamAttack();
-                    }
+                    //}
+                    //    else
+                    //{
+                    //    EnemyBodyslamAttack();
+                    //}
                      
                 }
                 // otherwise move
