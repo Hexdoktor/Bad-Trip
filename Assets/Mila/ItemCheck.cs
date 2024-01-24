@@ -34,6 +34,7 @@ public class ItemCheck : MonoBehaviour
                 StartCoroutine(Bubble(3));
                 playerMovement.horizontalMove = -1f;
                 string itemsText = string.Join(", ", items);
+
            
                 speechBubbleText.text = "Heck, I'm still missing my " + itemsText + ".";
             }
@@ -53,10 +54,11 @@ public class ItemCheck : MonoBehaviour
         while (elapsedTime < time)
         {
             speechBubble.transform.position = player.transform.position + offset;
+            playerMovement.horizontalMove = -40;
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-
+        playerMovement.horizontalMove = 0;
         speechBubble.SetActive(false);
     }
 

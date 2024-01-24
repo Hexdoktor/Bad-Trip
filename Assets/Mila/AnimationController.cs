@@ -23,7 +23,7 @@ public class AnimationController : MonoBehaviour
         if (playerMovementScript.glide)
         {
           
-            animator.Play("fly", 0, 0.20f);
+            animator.Play("fly", 0, 0.86f);
            
 
         }
